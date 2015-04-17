@@ -285,7 +285,7 @@ public class UsersListActivity extends BaseActivity implements FootUpdate.LoadMo
 
     @OptionsItem
     void action_add() {
-        startActivityForResult(new Intent(this, AddFollowActivity_.class), RESULT_REQUEST_ADD);
+        //startActivityForResult(new Intent(this, AddFollowActivity_.class), RESULT_REQUEST_ADD);
     }
 
     @Override

@@ -1,13 +1,9 @@
 package net.coding.program.common;
 
 import android.content.Context;
-import android.content.Intent;
 import android.text.Editable;
 import android.text.TextWatcher;
 
-import net.coding.program.model.ProjectObject;
-import net.coding.program.user.UsersListActivity;
-import net.coding.program.user.UsersListActivity_;
 
 /**
  * Created by chaochen on 14-10-29.
@@ -18,17 +14,11 @@ public class TextWatcherAt implements TextWatcher {
     StartActivity mStartActivity;
     int mResult;
 
-    ProjectObject mProjectObject;
 
-    public TextWatcherAt(Context ctx, StartActivity startActivity, int activityResult) {
-        this(ctx, startActivity, activityResult, null);
-    }
-
-    public TextWatcherAt(Context mContext, StartActivity mStartActivity, int mResult, ProjectObject mProjectObject) {
+    public TextWatcherAt(Context mContext, StartActivity mStartActivity, int mResult ) {
         this.mContext = mContext;
         this.mStartActivity = mStartActivity;
         this.mResult = mResult;
-        this.mProjectObject = mProjectObject;
     }
 
     @Override

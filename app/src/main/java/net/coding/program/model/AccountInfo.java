@@ -76,52 +76,6 @@ public class AccountInfo {
         return file.exists();
     }
 
-    private static final String PROJECTS = "PROJECTS";
-
-    public static void saveProjects(Context ctx, ArrayList<ProjectObject> data) {
-        if (ctx == null) {
-            return;
-        }
-
-        File file = new File(ctx.getFilesDir(), PROJECTS);
-        if (file.exists()) {
-            file.delete();
-        }
-
-        try {
-            ObjectOutputStream oos = new ObjectOutputStream(ctx.openFileOutput(PROJECTS, Context.MODE_PRIVATE));
-            oos.writeObject(data);
-            oos.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static ArrayList<ProjectObject> loadProjects(Context ctx) {
-        ArrayList<ProjectObject> data = null;
-        File file = new File(ctx.getFilesDir(), PROJECTS);
-        if (file.exists()) {
-            try {
-                ObjectInputStream ois = new ObjectInputStream(ctx.openFileInput(PROJECTS));
-                data = (ArrayList<ProjectObject>) ois.readObject();
-                ois.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        if (data == null) {
-            data = new ArrayList<ProjectObject>();
-        }
-
-        return data;
-    }
-
-    public static boolean isCacheProjects(Context ctx) {
-        File file = new File(ctx.getFilesDir(), PROJECTS);
-        return file.exists();
-    }
-
 
     private static final String MESSAGE_USERS = "MESSAGE_USERS";
 
@@ -314,15 +268,6 @@ public class AccountInfo {
         return CACHE_FRIEND_FANS;
     }
 
-    private static final String PROJECT_MEMBER = "PROJECT_MEMBER";
-
-    public static void saveProjectMembers(Context ctx, ArrayList<TaskObject.Members> data, int projectId) {
-        new DataCache<TaskObject.Members>().save(ctx, data, PROJECT_MEMBER + projectId);
-    }
-
-    public static ArrayList<TaskObject.Members> loadProjectMembers(Context ctx, int projectId) {
-        return new DataCache<TaskObject.Members>().load(ctx, PROJECT_MEMBER + projectId);
-    }
 
     private static final String MESSAGE_DRAFT = "MESSAGE_DRAFT";
 
@@ -423,26 +368,6 @@ public class AccountInfo {
 
         listData.add(new Pair(email, globayKey));
         dateCache.saveGlobal(ctx, listData, USER_RELOGIN_INFO);
-    }
-
-    private static final String USER_TASK_PROJECTS = "USER_TASK_PROJECTS";
-
-    public static void saveTaskProjects(Context context, ArrayList<ProjectObject> data) {
-        new DataCache<ProjectObject>().save(context, data, USER_TASK_PROJECTS);
-    }
-
-    public static ArrayList<ProjectObject> loadTaskProjects(Context context) {
-        return new DataCache<ProjectObject>().load(context, USER_TASK_PROJECTS);
-    }
-
-    private static final String USER_TASKS = "USER_TASKS_%d_%d";
-
-    public static void saveTasks(Context context, ArrayList<TaskObject.SingleTask> data, int projectId, int userId) {
-        new DataCache<TaskObject.SingleTask>().save(context, data, String.format(USER_TASKS, projectId, userId));
-    }
-
-    public static ArrayList<TaskObject.SingleTask> loadTasks(Context context, int projectId, int userId) {
-        return new DataCache<TaskObject.SingleTask>().load(context, String.format(USER_TASKS, projectId, userId));
     }
 
 

@@ -1,8 +1,6 @@
 package net.coding.program.common;
 
 import net.coding.program.model.Maopao;
-import net.coding.program.model.TaskObject;
-import net.coding.program.model.TopicObject;
 
 import java.util.HashMap;
 
@@ -38,18 +36,6 @@ public class CommentBackup {
                     ownerId = 0;
                 }
                 return new BackupParam(Type.Maopao, maopaoComment.tweet_id, ownerId);
-            } else if (object instanceof TopicObject) {
-                TopicObject topicObject = (TopicObject) object;
-
-                int parentId = topicObject.parent_id;
-                if (parentId == 0) {
-                    parentId = topicObject.id;
-                }
-                return new BackupParam(Type.Topic, parentId, topicObject.owner_id);
-
-            } else if (object instanceof TaskObject.TaskComment) {
-                TaskObject.TaskComment comment = (TaskObject.TaskComment) object;
-                return new BackupParam(Type.Task, comment.taskId, comment.owner_id);
             } else if (object instanceof BackupParam) {
                 return (BackupParam) object;
             }

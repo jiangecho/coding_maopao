@@ -9,7 +9,6 @@ import net.coding.program.common.DialogCopy;
 import net.coding.program.common.Global;
 import net.coding.program.common.HtmlContent;
 import net.coding.program.common.LongClickLinkMovementMethod;
-import net.coding.program.model.TaskObject;
 
 /**
  * Created by chaochen on 14/12/22.
@@ -28,16 +27,4 @@ public class ContentAreaBase {
         imageGetter = imageGetterParamer;
     }
 
-    public void setData(TaskObject.TaskComment comment) {
-        String data = comment.content;
-        Global.MessageParse maopaoData = HtmlContent.parseReplacePhoto(data);
-
-        if (maopaoData.text.isEmpty()) {
-            content.setVisibility(View.GONE);
-        } else {
-            content.setTag(comment);
-            content.setVisibility(View.VISIBLE);
-            content.setText(Global.changeHyperlinkColor(maopaoData.text, imageGetter, Global.tagHandler));
-        }
-    }
 }

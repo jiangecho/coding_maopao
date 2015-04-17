@@ -374,7 +374,6 @@ public class UserDetailActivity extends BaseActivity {
 
     @Click
     public void clickProject() {
-        UserProjectActivity_.intent(this).mUserObject(mUserObject).start();
     }
 
     @Click

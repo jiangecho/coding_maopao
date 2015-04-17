@@ -27,7 +27,6 @@ import net.coding.program.common.network.BaseFragment;
 import net.coding.program.maopao.MaopaoListFragment;
 import net.coding.program.model.AccountInfo;
 import net.coding.program.model.UserObject;
-import net.coding.program.setting.FeedbackActivity_;
 import net.coding.program.user.UserDetailActivity_;
 
 import org.androidannotations.annotations.AfterViews;
@@ -112,7 +111,6 @@ public class NavigationDrawerFragment extends BaseFragment {
 
     @Click
     protected final void buttonFeedback(View view) {
-        FeedbackActivity_.intent(getActivity()).start();
         mDrawerLayout.closeDrawer(mFragmentContainerView);
     }
 

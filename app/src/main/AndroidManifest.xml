@@ -147,22 +147,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionbar" />
         <activity
-            android:name=".project.detail.ProjectActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_project"
-            android:screenOrientation="portrait" >
-            <intent-filter>
-                <data
-                    android:host="ProjectActivity_"
-                    android:scheme="coding-net" />
-
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".EntranceActivity_"
             android:icon="@drawable/ic_launcher"
             android:screenOrientation="portrait"
@@ -173,47 +157,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".task.TaskAddActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_task_add"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".project.detail.MembersActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_members"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsPicDetailActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsHtmlDetailActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsTextDetailActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsDownloadDetailActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsFolderSelectorActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
         <activity
             android:name=".UserDetailEditActivity_"
             android:icon="@drawable/ic_lancher"
@@ -246,29 +189,6 @@
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_about"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.TopicListDetailActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_topic_comment"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustResize" >
-            <intent-filter>
-                <data
-                    android:host="TopicListDetailActivity_"
-                    android:scheme="coding-net" />
-
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".project.detail.TopicAddActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/topic_create"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateUnspecified" />
         <activity
             android:name=".maopao.MaopaoAddActivity_"
             android:icon="@drawable/ic_launcher"
@@ -386,45 +306,10 @@
             android:label="@string/title_activity_picker_images"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".project.detail.UserDynamicActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_user_dynamic"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".common.photopick.PhotoPickDetailActivity"
-            android:label="@string/title_activity_photo_pick_detail" />
-        <activity
-            android:name=".project.detail.GitTreeActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_git_tree"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.GitViewActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_git_tree"
-            android:configChanges="orientation"
-            android:screenOrientation="unspecified" />
-        <activity
             android:name=".setting.NotifySetting_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_notify_setting"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.MembersSelectActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_members_select"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".project.detail.AttachmentsDetailBaseActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_attachment"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".task.TaskDescriptionActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_task_description"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateUnspecified" />
         <activity
             android:name=".setting.AccountSetting_"
             android:icon="@drawable/ic_lancher"
@@ -436,12 +321,6 @@
             android:label="@string/title_activity_account_setting"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionbar" />
-        <activity
-            android:name=".project.SearchProjectActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_search_project"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
 
         <service android:name=".UpdateService" />
 
@@ -477,10 +356,6 @@
             android:label="@string/title_activity_file_url"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".project.ProjectHomeActivity_"
-            android:label="@string/title_activity_project_home"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".TestActivity"
             android:label="@string/title_activity_test" >
         </activity>
@@ -502,11 +377,6 @@
         <activity
             android:name=".user.UserProjectActivity_"
             android:label="@string/title_activity_user_project"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".project.MyProjectActivity_"
-            android:label="@string/title_activity_my_project"
             android:screenOrientation="portrait" >
         </activity>
         <!-- <activity -->
@@ -558,26 +428,6 @@
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
 
-        </activity>
-        <activity
-            android:name=".project.init.create.ProjectCreateActivity_"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_project_create" >
-        </activity>
-        <activity
-            android:name=".project.init.create.ProjectTypeActivity_"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_project_type" >
-        </activity>
-        <activity
-            android:name=".project.init.setting.ProjectSetActivity_"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_project_set" >
-        </activity>
-        <activity
-            android:name=".project.init.setting.ProjectAdvanceSetActivity_"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_project_advance_set" >
         </activity>
     </application>
 

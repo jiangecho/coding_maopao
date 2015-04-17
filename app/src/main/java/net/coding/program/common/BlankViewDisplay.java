@@ -6,13 +6,6 @@ import android.widget.TextView;
 import net.coding.program.R;
 import net.coding.program.maopao.MaopaoListFragment;
 import net.coding.program.message.UsersListFragment;
-import net.coding.program.project.ProjectListFragment;
-import net.coding.program.project.detail.AttachmentsActivity;
-import net.coding.program.project.detail.ProjectDynamicFragment;
-import net.coding.program.project.detail.ProjectGitFragment;
-import net.coding.program.project.detail.TaskListFragment;
-import net.coding.program.project.detail.TopicListFragment;
-import net.coding.program.user.UserProjectListFragment;
 
 /**
  * Created by chaochen on 14-10-24.
@@ -49,37 +42,13 @@ public class BlankViewDisplay {
 
         if (request) {
             if (customMessage == null || customMessage.isEmpty()) {
-                if (fragment instanceof ProjectListFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "您还木有项目呢，赶快起来创建吧～";
 
-                } else if (fragment instanceof TaskListFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "您还没有任务\n赶快为团队做点贡献吧~";
-
-                } else if (fragment instanceof TopicListFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "还没有讨论\n创建一个讨论发表对项目的看法吧";
-
-                } else if (fragment instanceof MaopaoListFragment) {
+                if (fragment instanceof MaopaoListFragment) {
                     iconId = R.drawable.ic_exception_blank_maopao;
                     text = "来，冒个泡吧～";
-
                 } else if (fragment instanceof UsersListFragment) {
                     iconId = R.drawable.ic_exception_blank_maopao;
                     text = "快和你的好友打个招呼吧~";
-                } else if (fragment instanceof ProjectDynamicFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "这里还什么都没有\n赶快起来弄出一点动静吧";
-                } else if (fragment instanceof ProjectGitFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "此项目的 Git 仓库为空";
-                } else if (fragment instanceof AttachmentsActivity) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "此文件夹为空";
-                } else if (fragment instanceof UserProjectListFragment) {
-                    iconId = R.drawable.ic_exception_blank_task;
-                    text = "这个人很懒，一个项目都木有～";
                 }
             } else {
                 text = customMessage;

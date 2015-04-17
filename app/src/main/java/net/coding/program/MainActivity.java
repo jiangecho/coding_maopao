@@ -32,12 +32,7 @@ import net.coding.program.maopao.MaopaoListFragment;
 import net.coding.program.maopao.MaopaoListFragment_;
 import net.coding.program.message.UsersListFragment_;
 import net.coding.program.model.AccountInfo;
-import net.coding.program.project.ProjectFragment;
-import net.coding.program.project.ProjectFragment_;
-import net.coding.program.project.init.InitProUtils;
-import net.coding.program.project.init.setting.ProjectAdvanceSetActivity;
 import net.coding.program.setting.SettingFragment_;
-import net.coding.program.task.TaskFragment_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -233,10 +228,8 @@ public class MainActivity extends BaseActivity
 
         switch (position) {
             case 0:
-                fragment = new ProjectFragment_();
                 break;
             case 1:
-                fragment = new TaskFragment_();
                 break;
             case 2:
                 // 进入冒泡页面，单独处理
@@ -255,7 +248,7 @@ public class MainActivity extends BaseActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
         }
 
-        if (position == 2) {
+        if (position == 2 || position == 0 || position == 1) {
             ActionBar actionBar = getSupportActionBar();
             Spinner spinner;
             actionBar.setDisplayShowCustomEnabled(true);
@@ -398,18 +391,6 @@ public class MainActivity extends BaseActivity
     //当项目设置里删除项目后，重新跳转到主界面，并刷新ProjectFragment
     @Override
     protected void onNewIntent(Intent intent) {
-        String action=intent.getStringExtra("action");
-        if (!TextUtils.isEmpty(action)&&action.equals(InitProUtils.FLAG_REFRESH)){
-            List<Fragment> fragments = getSupportFragmentManager().getFragments();
-            for (Fragment item : fragments) {
-                if (item instanceof ProjectFragment) {
-                    if (item.isAdded()){
-                        ((ProjectFragment) item).onRefresh();
-                    }
-                    break;
-                }
-            }
-        }
         super.onNewIntent(intent);
     }
 

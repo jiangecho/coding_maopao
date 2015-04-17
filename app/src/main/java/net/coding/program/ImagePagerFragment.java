@@ -28,7 +28,6 @@ import net.coding.program.common.Global;
 import net.coding.program.common.network.BaseFragment;
 import net.coding.program.common.network.MyAsyncHttpClient;
 import net.coding.program.model.AttachmentFileObject;
-import net.coding.program.project.detail.AttachmentsPicDetailActivity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
@@ -73,7 +72,6 @@ public class ImagePagerFragment extends BaseFragment {
 
     File mFile;
 
-    AttachmentsPicDetailActivity parentActivity;
 
     @FragmentArg
     String uri;
@@ -105,20 +103,6 @@ public class ImagePagerFragment extends BaseFragment {
     void init() {
         circleLoading.setVisibility(View.INVISIBLE);
         if (uri == null) {
-            parentActivity = (AttachmentsPicDetailActivity) getActivity();
-            if (parentActivity != null) {
-                //在AttachmentsPicDetailActivity中存放了缓存下来的结果
-                picCache = parentActivity.getPicCache();
-                if (picCache.containsKey(fileId)) {
-                    AttachmentFileObject mFileObject = picCache.get(fileId);
-                    uri = mFileObject.preview;
-                    showPhoto(mFileObject.isGif());
-                } else {
-                    //如果之前没有缓存过，那么获取并在得到结果后存入
-                    URL_FILES = String.format(URL_FILES_BASE, mProjectObjectId, fileId);
-                    getNetwork(URL_FILES, URL_FILES);
-                }
-            }
         } else {
             showPhoto(Global.isGif(uri));
         }
@@ -312,7 +296,6 @@ public class ImagePagerFragment extends BaseFragment {
                 AttachmentFileObject mFileObject = new AttachmentFileObject(file);
                 if (picCache != null) {
                     picCache.put(mFileObject.file_id, mFileObject);
-                    parentActivity.setAttachmentFileObject(mFileObject);
                 }
                 uri = mFileObject.preview;
                 showPhoto(mFileObject.isGif());

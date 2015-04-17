@@ -322,8 +322,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionbar" />
 
-        <service android:name=".UpdateService" />
-
         <activity
             android:name=".UpdateDialogActivity"
             android:icon="@drawable/ic_lancher"

@@ -32,7 +32,6 @@ import net.coding.program.maopao.MaopaoListFragment;
 import net.coding.program.maopao.MaopaoListFragment_;
 import net.coding.program.message.UsersListFragment_;
 import net.coding.program.model.AccountInfo;
-import net.coding.program.setting.SettingFragment_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -140,11 +139,6 @@ public class MainActivity extends BaseActivity
 
     @AfterViews
     void init() {
-        Intent intent = new Intent(this, UpdateService.class);
-        intent.putExtra(UpdateService.EXTRA_BACKGROUND, true);
-        intent.putExtra(UpdateService.EXTRA_WIFI, true);
-        intent.putExtra(UpdateService.EXTRA_DEL_OLD_APK, true);
-        startService(intent);
 
         mSpinnerAdapter = new MySpinnerAdapter(getLayoutInflater(), maopao_action_types);
 
@@ -240,7 +234,7 @@ public class MainActivity extends BaseActivity
                 break;
 
             case 4:
-                fragment = new SettingFragment_();
+                //fragment = new SettingFragment_();
                 break;
         }
 

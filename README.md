@@ -1,3 +1,6 @@
+### 说明
+本项目为完Coding Android客户端项目的冒泡(社区)部分，完整项目请参考[Coding Android](https://coding.net/u/coding/p/Coding-Android/git)。以下部分为原始项目的说明。
+----
 ### Coding Android客户端代码说明
 
 ##编译环境

@@ -1,8 +1,11 @@
 package net.coding.program.common;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.Editable;
 import android.text.TextWatcher;
+import net.coding.program.user.UsersListActivity;
+import net.coding.program.user.UsersListActivity_;
 
 
 /**
@@ -45,10 +48,10 @@ public class TextWatcherAt implements TextWatcher {
     }
 
     public static void startUserFollowList(Context mContext, StartActivity mStartActivity, int mResult) {
-//        Intent intent;
-//        intent = new Intent(mContext, UsersListActivity_.class);
-//        intent.putExtra("type", UsersListActivity.Friend.Follow);
-//        intent.putExtra("select", true);
-//        mStartActivity.startActivityForResult(intent, mResult);
+        Intent intent;
+        intent = new Intent(mContext, UsersListActivity_.class);
+        intent.putExtra("type", UsersListActivity.Friend.Follow);
+        intent.putExtra("select", true);
+        mStartActivity.startActivityForResult(intent, mResult);
     }
 }

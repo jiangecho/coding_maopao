@@ -41,6 +41,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+/**
+ * attention: 其实这就是消息那个页面，别被名字给忽悠了
+ */
 @EFragment(R.layout.fragment_users_list)
 @OptionsMenu(R.menu.message_users_list)
 public class UsersListFragment extends RefreshBaseFragment implements FootUpdate.LoadMore, StartActivity {

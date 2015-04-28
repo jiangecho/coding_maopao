@@ -8,9 +8,9 @@ import com.loopj.android.http.FileAsyncHttpResponseHandler;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
 import net.coding.program.app.MyApp;
-import net.coding.program.common.Global;
-import net.coding.program.common.network.MyAsyncHttpClient;
-import net.coding.program.model.AccountInfo;
+import net.coding.program.maopao.common.Global;
+import net.coding.program.maopao.common.network.MyAsyncHttpClient;
+import net.coding.program.maopao.model.AccountInfo;
 
 import org.apache.http.Header;
 import org.json.JSONArray;

@@ -20,15 +20,15 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.readystatesoftware.viewbadger.BadgeView;
 
 import net.coding.program.R;
-import net.coding.program.common.ClickSmallImage;
-import net.coding.program.common.Global;
-import net.coding.program.common.Unread;
-import net.coding.program.common.UnreadNotify;
-import net.coding.program.common.network.BaseFragment;
-import net.coding.program.maopao.MaopaoListFragment;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.model.UserObject;
-import net.coding.program.user.UserDetailActivity_;
+import net.coding.program.maopao.common.ClickSmallImage;
+import net.coding.program.maopao.common.Global;
+import net.coding.program.maopao.common.Unread;
+import net.coding.program.maopao.common.UnreadNotify;
+import net.coding.program.maopao.common.network.BaseFragment;
+import net.coding.program.maopao.maopao.MaopaoListFragment;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.model.UserObject;
+import net.coding.program.maopao.user.UserDetailActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

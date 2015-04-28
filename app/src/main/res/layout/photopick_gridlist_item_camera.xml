@@ -27,7 +27,7 @@
     <!--android:button="@drawable/pick_photo_checkbox"-->
     <!--android:focusable="false" />-->
 
-    <net.coding.program.common.CameraPreview
+    <net.coding.program.maopao.common.CameraPreview
         android:id="@+id/cameraPreview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

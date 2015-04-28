@@ -2,8 +2,8 @@ package net.coding.program;
 
 import android.test.AndroidTestCase;
 
-import net.coding.program.common.CommentBackup;
-import net.coding.program.common.HtmlContent;
+import net.coding.program.maopao.common.CommentBackup;
+import net.coding.program.maopao.common.HtmlContent;
 
 /**
  * Created by chaochen on 15/1/27.

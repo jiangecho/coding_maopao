@@ -105,7 +105,7 @@
             android:enabled="true"
             android:process=":remote" />
 
-        <receiver android:name=".common.PushReceiver" >
+        <receiver android:name=".maopao.common.PushReceiver" >
             <intent-filter>
 
                 <!-- 接收消息透传 -->
@@ -129,7 +129,7 @@
             android:value="Channel" />
 
         <activity
-            android:name=".common.photopick.PhotoPickActivity"
+            android:name=".maopao.common.photopick.PhotoPickActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/TranslateTheme" />
@@ -163,18 +163,18 @@
             android:label="@string/title_activity_user_info"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".user.SetUserInfoActivity_"
+            android:name=".maopao.user.SetUserInfoActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_user_info"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
         <activity
-            android:name=".user.SetUserTagActivity_"
+            android:name=".maopao.user.SetUserTagActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_user_info"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".maopao.MaopaoAddActivity_"
+            android:name=".maopao.maopao.MaopaoAddActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_make_maopao"
             android:screenOrientation="portrait"
@@ -202,41 +202,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".maopao.LocationSearchActivity_"
+            android:name=".maopao.maopao.LocationSearchActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_location_search"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".maopao.LocationEditActivity_"
+            android:name=".maopao.maopao.LocationEditActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_location_edit"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".maopao.LocationDetailActivity_"
+            android:name=".maopao.maopao.LocationDetailActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_location_detail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".maopao.LocationMapActivity_"
+            android:name=".maopao.maopao.LocationMapActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_location_map"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".user.UsersListActivity_"
+            android:name=".maopao.user.UsersListActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_users"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".user.AddFollowActivity_"
+            android:name=".maopao.user.AddFollowActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_add_follow"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".user.UserDetailActivity_"
+            android:name=".maopao.user.UserDetailActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_user_detail"
             android:screenOrientation="portrait"
@@ -253,7 +253,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".message.MessageListActivity_"
+            android:name=".maopao.message.MessageListActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_message_list"
             android:screenOrientation="portrait"
@@ -264,28 +264,28 @@
             android:label=""
             android:screenOrientation="portrait" />
         <activity
-            android:name=".message.NotifyListActivity_"
+            android:name=".maopao.message.NotifyListActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="\@我的"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".maopao.LikeUsersListActivity_"
+            android:name=".maopao.maopao.LikeUsersListActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_like_users_list"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".maopao.MaopaoDetailActivity_"
+            android:name=".maopao.maopao.MaopaoDetailActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_maopao_detail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustUnspecified" />
         <activity
-            android:name=".user.UserMaopaoActivity"
+            android:name=".maopao.user.UserMaopaoActivity"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_user_maopao"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".third.PickerImagesActivity"
+            android:name=".maopao.third.PickerImagesActivity"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_picker_images"
             android:screenOrientation="portrait" />
@@ -312,13 +312,13 @@
             android:label="@string/title_activity_base_annotation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".common.TermsActivity"
+            android:name=".maopao.common.TermsActivity"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_terms"
             android:screenOrientation="portrait" />
 
         <receiver
-            android:name=".MyPushReceiver"
+            android:name=".maopao.MyPushReceiver"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -327,7 +327,7 @@
         </receiver>
 
         <activity
-            android:name=".user.UserDetailMoreActivity_"
+            android:name=".maopao.user.UserDetailMoreActivity_"
             android:label="@string/title_activity_user_detail_more"
             android:screenOrientation="portrait" >
         </activity>

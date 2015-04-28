@@ -9,15 +9,13 @@ import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import net.coding.program.BaseActivity;
-import net.coding.program.app.LoginActivity_;
-import net.coding.program.app.MainActivity_;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
-import net.coding.program.common.Global;
+import net.coding.program.maopao.common.Global;
 import net.coding.program.app.login.LoginBackground;
-import net.coding.program.common.UnreadNotify;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.model.UserObject;
+import net.coding.program.maopao.common.UnreadNotify;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.model.UserObject;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;

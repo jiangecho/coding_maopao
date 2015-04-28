@@ -52,7 +52,7 @@
             android:textColor="@color/font_black_content"
             android:textSize="16sp" />
 
-        <net.coding.program.common.MinSizeImageView
+        <net.coding.program.maopao.common.MinSizeImageView
             custom:microSize="@dimen/image_single_micro_width"
             custom:minWidth="@dimen/image_single_min_size"
             custom:minHeight="@dimen/image_single_min_size"

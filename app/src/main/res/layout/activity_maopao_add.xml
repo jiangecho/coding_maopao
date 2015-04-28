@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.coding.program.maopao.MaopaoAddActivity">
+    tools:context="net.coding.program.maopao.maopao.MaopaoAddActivity">
 
 
     <!--<EditText-->
@@ -127,7 +127,7 @@
     <!--</LinearLayout>-->
 
 
-    <net.coding.program.common.AutoHeightGridView
+    <net.coding.program.maopao.common.AutoHeightGridView
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:layout_marginTop="10dp"

@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:orientation="vertical">
 
-    <net.coding.program.PhotoViewPager xmlns:tools="http://schemas.android.com/tools"
+    <net.coding.program.maopao.PhotoViewPager xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        tools:context="net.coding.program.common.photopick.PhotoPickDetailActivity"
+        tools:context="net.coding.program.maopao.common.photopick.PhotoPickDetailActivity"
         android:layout_weight="1">
 
-    </net.coding.program.PhotoViewPager>
+    </net.coding.program.maopao.PhotoViewPager>
 
     <LinearLayout
         android:layout_width="match_parent"

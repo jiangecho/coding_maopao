@@ -1,12 +1,11 @@
 package net.coding.program.app;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import net.coding.program.R;
-import net.coding.program.common.umeng.UmengActivity;
+import net.coding.program.maopao.common.umeng.UmengActivity;
 
 
 public class UpdateDialogActivity extends UmengActivity {

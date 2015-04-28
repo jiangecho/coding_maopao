@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:id="@+id/imageView"/>-->
 
-    <net.coding.program.PhotoViewPager
+    <net.coding.program.maopao.PhotoViewPager
         android:id="@+id/pager"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

@@ -1,8 +1,8 @@
-<net.coding.program.message.TouchLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<net.coding.program.maopao.message.TouchLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.coding.program.message.NotifyListActivity">
+    tools:context="net.coding.program.maopao.message.NotifyListActivity">
 
 
     <ImageView
@@ -46,4 +46,4 @@
 
     </LinearLayout>
 
-</net.coding.program.message.TouchLinearLayout>
+</net.coding.program.maopao.message.TouchLinearLayout>

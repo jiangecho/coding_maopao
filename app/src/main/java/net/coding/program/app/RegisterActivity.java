@@ -17,12 +17,12 @@ import com.loopj.android.http.RequestParams;
 
 import net.coding.program.app.login.BaseAnnotationActivity;
 import net.coding.program.R;
-import net.coding.program.common.Global;
-import net.coding.program.common.TermsActivity;
-import net.coding.program.common.enter.SimpleTextWatcher;
-import net.coding.program.common.network.MyAsyncHttpClient;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.model.UserObject;
+import net.coding.program.maopao.common.Global;
+import net.coding.program.maopao.common.TermsActivity;
+import net.coding.program.maopao.common.enter.SimpleTextWatcher;
+import net.coding.program.maopao.common.network.MyAsyncHttpClient;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.model.UserObject;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

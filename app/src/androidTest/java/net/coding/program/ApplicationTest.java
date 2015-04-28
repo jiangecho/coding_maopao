@@ -4,8 +4,8 @@ import android.app.Application;
 import android.test.ApplicationTestCase;
 
 import net.coding.program.app.login.LoginBackground;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.third.EmojiFilter;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.third.EmojiFilter;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

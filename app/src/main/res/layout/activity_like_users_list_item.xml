@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/listView"
-    tools:context="net.coding.program.maopao.LikeUsersListActivity" />
+    tools:context="net.coding.program.maopao.maopao.LikeUsersListActivity" />
 
 

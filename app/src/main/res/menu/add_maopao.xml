@@ -1,7 +1,7 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="net.coding.program.maopao.MaopaoAddActivity">
+    tools:context="net.coding.program.maopao.maopao.MaopaoAddActivity">
     <item
         android:id="@+id/action_add"
         android:title="发表"

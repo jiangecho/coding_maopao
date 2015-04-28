@@ -3,7 +3,6 @@ package net.coding.program.app;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
-import android.util.Log;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
@@ -12,11 +11,11 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 import net.coding.program.R;
-import net.coding.program.common.PhoneType;
-import net.coding.program.common.Unread;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.model.UserObject;
-import net.coding.program.third.MyImageDownloader;
+import net.coding.program.maopao.common.PhoneType;
+import net.coding.program.maopao.common.Unread;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.model.UserObject;
+import net.coding.program.maopao.third.MyImageDownloader;
 
 import java.util.List;
 

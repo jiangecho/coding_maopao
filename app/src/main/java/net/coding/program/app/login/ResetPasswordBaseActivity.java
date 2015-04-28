@@ -7,10 +7,10 @@ import android.widget.EditText;
 
 import com.loopj.android.http.RequestParams;
 
-import net.coding.program.BaseActivity;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.app.LoginActivity_;
 import net.coding.program.R;
-import net.coding.program.common.SimpleSHA1;
+import net.coding.program.maopao.common.SimpleSHA1;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

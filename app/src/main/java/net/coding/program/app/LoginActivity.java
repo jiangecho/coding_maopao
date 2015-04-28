@@ -23,18 +23,18 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.tencent.android.tpush.XGPushManager;
 
-import net.coding.program.BaseActivity;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
-import net.coding.program.common.Global;
+import net.coding.program.maopao.common.Global;
 import net.coding.program.app.login.LoginBackground;
-import net.coding.program.common.SimpleSHA1;
-import net.coding.program.common.enter.SimpleTextWatcher;
-import net.coding.program.common.network.MyAsyncHttpClient;
+import net.coding.program.maopao.common.SimpleSHA1;
+import net.coding.program.maopao.common.enter.SimpleTextWatcher;
+import net.coding.program.maopao.common.network.MyAsyncHttpClient;
 import net.coding.program.app.login.SendEmailActiveActivity_;
 import net.coding.program.app.login.SendEmailPasswordActivity_;
-import net.coding.program.model.AccountInfo;
-import net.coding.program.model.UserObject;
-import net.coding.program.third.FastBlur;
+import net.coding.program.maopao.model.AccountInfo;
+import net.coding.program.maopao.model.UserObject;
+import net.coding.program.maopao.third.FastBlur;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

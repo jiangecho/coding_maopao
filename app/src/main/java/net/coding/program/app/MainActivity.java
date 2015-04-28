@@ -25,14 +25,14 @@ import android.widget.TextView;
 import com.tencent.android.tpush.XGPushManager;
 import com.tencent.android.tpush.service.XGPushService;
 
-import net.coding.program.BaseActivity;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
 import net.coding.program.app.login.LoginBackground;
-import net.coding.program.common.htmltext.URLSpanNoUnderline;
-import net.coding.program.maopao.MaopaoListFragment;
-import net.coding.program.maopao.MaopaoListFragment_;
-import net.coding.program.message.UsersListFragment_;
-import net.coding.program.model.AccountInfo;
+import net.coding.program.maopao.common.htmltext.URLSpanNoUnderline;
+import net.coding.program.maopao.maopao.MaopaoListFragment;
+import net.coding.program.maopao.maopao.MaopaoListFragment_;
+import net.coding.program.maopao.message.UsersListFragment_;
+import net.coding.program.maopao.model.AccountInfo;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;

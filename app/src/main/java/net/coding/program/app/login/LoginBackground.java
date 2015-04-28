@@ -1,4 +1,4 @@
-package net.coding.program.common;
+package net.coding.program.app.login;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,7 +7,8 @@ import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.FileAsyncHttpResponseHandler;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
-import net.coding.program.MyApp;
+import net.coding.program.app.MyApp;
+import net.coding.program.common.Global;
 import net.coding.program.common.network.MyAsyncHttpClient;
 import net.coding.program.model.AccountInfo;
 

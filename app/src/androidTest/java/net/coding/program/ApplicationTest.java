@@ -3,7 +3,7 @@ package net.coding.program;
 import android.app.Application;
 import android.test.ApplicationTestCase;
 
-import net.coding.program.common.LoginBackground;
+import net.coding.program.app.login.LoginBackground;
 import net.coding.program.model.AccountInfo;
 import net.coding.program.third.EmojiFilter;
 

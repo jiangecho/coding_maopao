@@ -1,6 +1,6 @@
 package net.coding.program.model;
 
-import net.coding.program.MyApp;
+import net.coding.program.app.MyApp;
 
 import org.json.JSONException;
 import org.json.JSONObject;

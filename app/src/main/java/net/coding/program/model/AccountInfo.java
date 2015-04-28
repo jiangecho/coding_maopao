@@ -3,7 +3,7 @@ package net.coding.program.model;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import net.coding.program.common.LoginBackground;
+import net.coding.program.app.login.LoginBackground;
 import net.coding.program.maopao.MaopaoAddActivity;
 import net.coding.program.user.UsersListActivity;
 

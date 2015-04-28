@@ -8,6 +8,8 @@ import android.content.Intent;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
+import net.coding.program.app.MyApp;
+import net.coding.program.app.MainActivity_;
 import net.coding.program.common.Global;
 import net.coding.program.common.PushReceiver;
 import net.coding.program.common.htmltext.URLSpanNoUnderline;

@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 import android.app.ActivityManager;
 import android.app.Application;
@@ -11,6 +11,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
+import net.coding.program.R;
 import net.coding.program.common.PhoneType;
 import net.coding.program.common.Unread;
 import net.coding.program.model.AccountInfo;

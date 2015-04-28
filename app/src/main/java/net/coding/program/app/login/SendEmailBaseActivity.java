@@ -1,8 +1,10 @@
 package net.coding.program.app.login;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
+import android.text.Editable;
+import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,6 +17,7 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import net.coding.program.BaseAnnotationActivity;
 import net.coding.program.R;
 import net.coding.program.common.Global;
+import net.coding.program.common.enter.SimpleTextWatcher;
 import net.coding.program.common.network.MyAsyncHttpClient;
 
 import org.androidannotations.annotations.AfterViews;
@@ -104,4 +107,56 @@ public class SendEmailBaseActivity extends BaseAnnotationActivity {
         return false;
     }
 
+    /**
+     * Created by chaochen on 15/1/6.
+     */
+    public static class LoginEditText extends EditText {
+
+        Drawable drawable;
+
+        public LoginEditText(Context context, AttributeSet attrs) {
+            super(context, attrs);
+            init();
+        }
+
+        private void init() {
+            drawable = getResources().getDrawable(R.drawable.delete_edit_login);
+            drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
+
+            addTextChangedListener(new SimpleTextWatcher() {
+                @Override
+                public void afterTextChanged(Editable s) {
+                    displayDelete(s.length() > 0);
+                }
+            });
+        }
+
+        private void displayDelete(boolean show) {
+            if (show) {
+                setDrawableRight(drawable);
+            } else {
+                setDrawableRight(null);
+            }
+        }
+
+        private void setDrawableRight(Drawable drawable) {
+            setCompoundDrawables(null, null, drawable, null);
+        }
+
+        @Override
+        public boolean onTouchEvent(MotionEvent event) {
+            if (event.getAction() == MotionEvent.ACTION_UP) {
+                if (getCompoundDrawables()[2] != null) {
+                    boolean touchable = event.getX() > (getWidth() - getTotalPaddingRight())
+                            && (event.getX() < ((getWidth() - getPaddingRight())));
+
+                    if (touchable) {
+                        this.setText("");
+                    }
+                }
+            }
+
+            return super.onTouchEvent(event);
+        }
+    }
 }

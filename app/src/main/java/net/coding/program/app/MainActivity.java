@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -11,7 +11,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -26,7 +25,9 @@ import android.widget.TextView;
 import com.tencent.android.tpush.XGPushManager;
 import com.tencent.android.tpush.service.XGPushService;
 
-import net.coding.program.common.LoginBackground;
+import net.coding.program.BaseActivity;
+import net.coding.program.R;
+import net.coding.program.app.login.LoginBackground;
 import net.coding.program.common.htmltext.URLSpanNoUnderline;
 import net.coding.program.maopao.MaopaoListFragment;
 import net.coding.program.maopao.MaopaoListFragment_;

@@ -871,7 +871,7 @@ service#net.coding.program.UpdateService
 ADDED from AndroidManifest.xml:459:9
 	android:name
 		ADDED from AndroidManifest.xml:459:18
-activity#net.coding.program.UpdateDialogActivity
+activity#net.coding.program.app.UpdateDialogActivity
 ADDED from AndroidManifest.xml:461:9
 	android:label
 		ADDED from AndroidManifest.xml:464:13

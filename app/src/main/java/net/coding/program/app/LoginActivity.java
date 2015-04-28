@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,15 +23,15 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.tencent.android.tpush.XGPushManager;
 
+import net.coding.program.BaseActivity;
+import net.coding.program.R;
 import net.coding.program.common.Global;
-import net.coding.program.common.LoginBackground;
+import net.coding.program.app.login.LoginBackground;
 import net.coding.program.common.SimpleSHA1;
 import net.coding.program.common.enter.SimpleTextWatcher;
 import net.coding.program.common.network.MyAsyncHttpClient;
-import net.coding.program.app.login.ResetPasswordActivity_;
 import net.coding.program.app.login.SendEmailActiveActivity_;
 import net.coding.program.app.login.SendEmailPasswordActivity_;
-import net.coding.program.app.login.UserActiveActivity_;
 import net.coding.program.model.AccountInfo;
 import net.coding.program.model.UserObject;
 import net.coding.program.third.FastBlur;

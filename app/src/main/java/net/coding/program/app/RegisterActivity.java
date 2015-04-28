@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -18,6 +18,8 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.PersistentCookieStore;
 import com.loopj.android.http.RequestParams;
 
+import net.coding.program.BaseAnnotationActivity;
+import net.coding.program.R;
 import net.coding.program.common.Global;
 import net.coding.program.common.TermsActivity;
 import net.coding.program.common.enter.SimpleTextWatcher;

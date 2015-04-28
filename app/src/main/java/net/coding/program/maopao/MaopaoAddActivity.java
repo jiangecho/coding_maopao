@@ -30,8 +30,8 @@ import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListene
 
 import net.coding.program.BaseActivity;
 import net.coding.program.ImagePagerActivity_;
-import net.coding.program.LoginActivity_;
-import net.coding.program.MyApp;
+import net.coding.program.app.LoginActivity_;
+import net.coding.program.app.MyApp;
 import net.coding.program.R;
 import net.coding.program.TestActivity;
 import net.coding.program.common.Global;

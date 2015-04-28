@@ -8,7 +8,7 @@ import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
-import net.coding.program.LoginActivity_;
+import net.coding.program.app.LoginActivity_;
 import net.coding.program.common.Global;
 
 import org.apache.http.Header;

@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 
 import android.support.v7.app.ActionBar;
@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.readystatesoftware.viewbadger.BadgeView;
 
+import net.coding.program.R;
 import net.coding.program.common.ClickSmallImage;
 import net.coding.program.common.Global;
 import net.coding.program.common.Unread;

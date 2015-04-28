@@ -29,7 +29,7 @@ import android.widget.ImageView;
 
 import com.loopj.android.http.PersistentCookieStore;
 
-import net.coding.program.MyApp;
+import net.coding.program.app.MyApp;
 import net.coding.program.common.htmltext.GrayQuoteSpan;
 import net.coding.program.common.htmltext.URLSpanNoUnderline;
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<net.coding.program.common.LoginEditText xmlns:android="http://schemas.android.com/apk/res/android"
+<net.coding.program.app.login.SendEmailBaseActivity.LoginEditText xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/editName"
     android:layout_width="match_parent"
     android:layout_height="@dimen/edit_height"

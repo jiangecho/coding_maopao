@@ -50,7 +50,7 @@
                 app:border_color="#ffffffff"
                 app:border_width="1.5dp" />
 
-            <net.coding.program.common.LoginEditText
+            <net.coding.program.app.login.SendEmailBaseActivity.LoginEditText
                 android:id="@+id/editName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                 android:textColor="@color/font_white"
                 android:textColorHint="@color/font_white_disable" />
 
-            <net.coding.program.common.LoginEditText
+            <net.coding.program.app.login.SendEmailBaseActivity.LoginEditText
                 android:id="@+id/editPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

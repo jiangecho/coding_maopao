@@ -1,4 +1,4 @@
-package net.coding.program;
+package net.coding.program.app;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -9,8 +9,12 @@ import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import net.coding.program.BaseActivity;
+import net.coding.program.app.LoginActivity_;
+import net.coding.program.app.MainActivity_;
+import net.coding.program.R;
 import net.coding.program.common.Global;
-import net.coding.program.common.LoginBackground;
+import net.coding.program.app.login.LoginBackground;
 import net.coding.program.common.UnreadNotify;
 import net.coding.program.model.AccountInfo;
 import net.coding.program.model.UserObject;

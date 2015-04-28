@@ -21,7 +21,7 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 import net.coding.program.BaseActivity;
-import net.coding.program.MyApp;
+import net.coding.program.app.MyApp;
 import net.coding.program.R;
 import net.coding.program.UserDetailEditActivity_;
 import net.coding.program.common.ClickSmallImage;

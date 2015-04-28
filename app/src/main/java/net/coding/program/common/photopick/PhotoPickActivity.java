@@ -29,7 +29,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
 import net.coding.program.BaseActivity;
-import net.coding.program.MyApp;
+import net.coding.program.app.MyApp;
 import net.coding.program.R;
 import net.coding.program.common.CameraPreview;
 import net.coding.program.common.Global;

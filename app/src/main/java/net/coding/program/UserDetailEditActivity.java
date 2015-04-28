@@ -25,6 +25,7 @@ import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.RequestParams;
 import com.loopj.android.http.TextHttpResponseHandler;
 
+import net.coding.program.app.MyApp;
 import net.coding.program.common.ClickSmallImage;
 import net.coding.program.common.DatePickerFragment;
 import net.coding.program.common.Global;

@@ -1,5 +1,7 @@
-package net.coding.program;
+package net.coding.program.app.login;
 
+import net.coding.program.BaseActivity;
+import net.coding.program.R;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.OptionsItem;

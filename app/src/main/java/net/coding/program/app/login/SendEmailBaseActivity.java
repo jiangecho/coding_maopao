@@ -14,7 +14,6 @@ import android.widget.Toast;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
-import net.coding.program.BaseAnnotationActivity;
 import net.coding.program.R;
 import net.coding.program.common.Global;
 import net.coding.program.common.enter.SimpleTextWatcher;

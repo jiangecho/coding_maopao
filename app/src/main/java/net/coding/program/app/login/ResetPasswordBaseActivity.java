@@ -1,4 +1,4 @@
-package net.coding.program.login;
+package net.coding.program.app.login;
 
 import android.net.Uri;
 import android.text.TextUtils;

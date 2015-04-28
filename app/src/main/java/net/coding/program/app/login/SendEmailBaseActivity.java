@@ -1,4 +1,4 @@
-package net.coding.program.login;
+package net.coding.program.app.login;
 
 import android.content.Context;
 import android.content.Intent;

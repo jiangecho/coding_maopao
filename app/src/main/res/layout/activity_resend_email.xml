@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/divide_15_e5"
     android:orientation="vertical"
-    tools:context="net.coding.program.login.SendEmailActiveActivity">
+    tools:context="net.coding.program.app.login.SendEmailActiveActivity">
 
     <include layout="@layout/login_baselayout_title" />
 

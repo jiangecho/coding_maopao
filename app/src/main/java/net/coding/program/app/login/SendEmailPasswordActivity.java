@@ -1,4 +1,4 @@
-package net.coding.program.login;
+package net.coding.program.app.login;
 
 import net.coding.program.R;
 import net.coding.program.common.Global;
@@ -10,13 +10,14 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 @EActivity(R.layout.activity_base_send_email)
-public class SendEmailActiveActivity extends SendEmailBaseActivity {
+public class SendEmailPasswordActivity extends SendEmailBaseActivity {
 
-    private final String hostResendEmail = Global.HOST + "/api/activate?email=%s&j_captcha=%s";
+
+    private final String hostResetPassword = Global.HOST + "/api/resetPassword?email=%s&j_captcha=%s";
 
     @AfterViews
-    protected final void initResetPassword() {
-        loginButton.setText("重发激活邮件");
+    protected final void initResendEmail() {
+        loginButton.setText("发送重置密码邮件");
     }
 
     @Click
@@ -25,19 +26,20 @@ public class SendEmailActiveActivity extends SendEmailBaseActivity {
             return;
         }
 
-        String hostReset = String.format(hostResendEmail, getEmail(), getValify());
-        getNetwork(hostReset, hostResendEmail);
+        String hostReset = String.format(hostResetPassword, getEmail(), getValify());
+        getNetwork(hostReset, hostResetPassword);
     }
 
     @Override
     public void parseJson(int code, JSONObject respanse, String tag, int pos, Object data) throws JSONException {
-        if (tag.equals(hostResendEmail)) {
+        if (tag.equals(hostResetPassword)) {
             if (code == 0) {
-                showMiddleToast("重置密码邮件已经发送，请尽快去邮箱查收");
+                showMiddleToast("激活邮件已经发送，请尽快去邮箱查收");
             } else {
                 downloadValifyPhoto();
                 showErrorMsg(code, respanse);
             }
         }
     }
+
 }

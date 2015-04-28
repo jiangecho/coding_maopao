@@ -316,10 +316,6 @@
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_terms"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
 
         <receiver
             android:name=".MyPushReceiver"

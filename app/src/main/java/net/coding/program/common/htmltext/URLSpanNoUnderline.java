@@ -9,15 +9,11 @@ import android.view.View;
 import android.widget.Toast;
 
 import net.coding.program.ImagePagerActivity_;
-import net.coding.program.TestActivity;
 import net.coding.program.WebActivity_;
 import net.coding.program.common.Global;
-import net.coding.program.common.HtmlContent;
 import net.coding.program.maopao.MaopaoDetailActivity;
 import net.coding.program.maopao.MaopaoDetailActivity_;
 import net.coding.program.message.MessageListActivity_;
-import net.coding.program.model.AttachmentFileObject;
-import net.coding.program.model.AttachmentFolderObject;
 import net.coding.program.user.UserDetailActivity_;
 
 import java.util.regex.Matcher;

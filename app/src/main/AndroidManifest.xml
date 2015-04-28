@@ -174,22 +174,6 @@
             android:label="@string/title_activity_user_info"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".setting.SetPasswordActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_set_password"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".setting.FeedbackActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_feedback"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
-        <activity
-            android:name=".setting.AboutActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_about"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".maopao.MaopaoAddActivity_"
             android:icon="@drawable/ic_launcher"
             android:label="@string/title_activity_make_maopao"
@@ -306,16 +290,6 @@
             android:label="@string/title_activity_picker_images"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".setting.NotifySetting_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_notify_setting"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".setting.AccountSetting_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_account_setting"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".WebActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_account_setting"
@@ -343,17 +317,6 @@
             android:label="@string/title_activity_terms"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".setting.UpdateTipActivity"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_update_tip"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.Dialog" />
-        <activity
-            android:name=".FileUrlActivity_"
-            android:icon="@drawable/ic_lancher"
-            android:label="@string/title_activity_file_url"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".TestActivity"
             android:label="@string/title_activity_test" >
         </activity>
@@ -370,11 +333,6 @@
         <activity
             android:name=".user.UserDetailMoreActivity_"
             android:label="@string/title_activity_user_detail_more"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".user.UserProjectActivity_"
-            android:label="@string/title_activity_user_project"
             android:screenOrientation="portrait" >
         </activity>
         <!-- <activity -->

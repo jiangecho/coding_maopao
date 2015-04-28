@@ -33,7 +33,7 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 
-import net.coding.program.ImagePagerFragment_;
+import net.coding.program.maopao.ImagePagerFragment_;
 import net.coding.program.R;
 import net.coding.program.maopao.common.CustomDialog;
 import net.coding.program.maopao.common.umeng.UmengActivity;

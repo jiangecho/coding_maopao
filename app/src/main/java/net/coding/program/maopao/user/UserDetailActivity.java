@@ -22,7 +22,7 @@ import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListene
 import net.coding.program.maopao.BaseActivity;
 import net.coding.program.app.MyApp;
 import net.coding.program.R;
-import net.coding.program.UserDetailEditActivity_;
+import net.coding.program.maopao.UserDetailEditActivity_;
 import net.coding.program.maopao.common.ClickSmallImage;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.maopao.MaopaoListFragment;

@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import net.coding.program.ImagePagerActivity_;
-import net.coding.program.WebActivity_;
+import net.coding.program.maopao.ImagePagerActivity_;
+import net.coding.program.maopao.WebActivity_;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.maopao.MaopaoDetailActivity;
 import net.coding.program.maopao.maopao.MaopaoDetailActivity_;

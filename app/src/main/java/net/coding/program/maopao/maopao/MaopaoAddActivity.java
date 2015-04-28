@@ -28,7 +28,7 @@ import com.nostra13.universalimageloader.core.assist.ImageSize;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 import net.coding.program.maopao.BaseActivity;
-import net.coding.program.ImagePagerActivity_;
+import net.coding.program.maopao.ImagePagerActivity_;
 import net.coding.program.app.LoginActivity_;
 import net.coding.program.app.MyApp;
 import net.coding.program.R;

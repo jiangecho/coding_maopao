@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.view.View;
 
-import net.coding.program.ImagePagerActivity_;
+import net.coding.program.maopao.ImagePagerActivity_;
 import net.coding.program.maopao.maopao.MaopaoListFragment;
 
 /**

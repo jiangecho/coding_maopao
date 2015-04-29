@@ -20,6 +20,13 @@ android {
     lintOptions {
         abortOnError false
     }
+
+    sourceSets{
+        main{
+            res.srcDirs = ['src/main/res-mp']
+            assets.srcDirs = ['src/main/assets-mp']
+            }
+    }
 }
 
 dependencies {

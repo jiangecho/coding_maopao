@@ -262,7 +262,7 @@ public class MaopaoAddActivity extends BaseActivity implements StartActivity {
         for (PhotoData item : mData) {
             if (item.serviceUri.isEmpty()) {
                 uploadImage(item.uri);
-                return;
+                return; // yeah, the request is async, so just return here.
             }
         }
 

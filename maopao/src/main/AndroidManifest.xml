@@ -290,6 +290,9 @@
             android:label="@string/title_activity_picker_images"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".maopao.common.photopick.PhotoPickDetailActivity"
+            android:label="@string/title_activity_photo_pick_detail" />
+        <activity
             android:name=".maopao.WebActivity_"
             android:icon="@drawable/ic_lancher"
             android:label="@string/title_activity_account_setting"

@@ -107,7 +107,7 @@ public class NotifyListActivity extends BaseActivity implements FootUpdate.LoadM
     View.OnClickListener onClickItem = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            NotifyObject notifyObject = (NotifyObject) v.getTag(R.id.tag);
+            NotifyObject notifyObject = (NotifyObject) v.getTag(R.id.icon);
 
             RequestParams params = new RequestParams();
             params.put("id", notifyObject.id);
@@ -153,7 +153,7 @@ public class NotifyListActivity extends BaseActivity implements FootUpdate.LoadM
 
             NotifyObject data = mData.get(position);
 
-            holder.root.setTag(R.id.tag, data);
+            holder.root.setTag(R.id.icon, data);
 
             String title = data.content;
             holder.time.setText(Global.dayToNow(data.created_at));

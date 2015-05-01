@@ -16,24 +16,17 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.Spinner;
-import android.widget.TextView;
-
+import android.widget.*;
 import com.tencent.android.tpush.XGPushManager;
 import com.tencent.android.tpush.service.XGPushService;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
 import net.coding.program.app.login.LoginBackground;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.common.htmltext.URLSpanNoUnderline;
 import net.coding.program.maopao.maopao.MaopaoListFragment;
 import net.coding.program.maopao.maopao.MaopaoListFragment_;
 import net.coding.program.maopao.message.UsersListFragment_;
 import net.coding.program.maopao.model.AccountInfo;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;

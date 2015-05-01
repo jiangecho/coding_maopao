@@ -3,15 +3,12 @@ package net.coding.program.maopao.maopao;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.LocationObject;
 import net.coding.program.maopao.model.UserObject;
-
 import org.apache.http.Header;
 import org.json.JSONArray;
 import org.json.JSONObject;

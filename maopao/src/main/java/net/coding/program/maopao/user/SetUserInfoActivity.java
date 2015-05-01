@@ -2,22 +2,14 @@ package net.coding.program.maopao.user;
 
 import android.app.Activity;
 import android.widget.TextView;
-
 import com.loopj.android.http.RequestParams;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.UserDetailEditActivity;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.UserObject;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.json.JSONException;
 import org.json.JSONObject;
 

@@ -1,7 +1,6 @@
 package net.coding.program.maopao.common.network;
 
 import android.support.v4.widget.SwipeRefreshLayout;
-
 import net.coding.program.R;
 
 /**

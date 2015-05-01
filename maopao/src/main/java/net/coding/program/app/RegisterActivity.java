@@ -10,20 +10,17 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-
-import net.coding.program.app.login.BaseAnnotationActivity;
 import net.coding.program.R;
+import net.coding.program.app.login.BaseAnnotationActivity;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.TermsActivity;
 import net.coding.program.maopao.common.enter.SimpleTextWatcher;
 import net.coding.program.maopao.common.network.MyAsyncHttpClient;
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.UserObject;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;

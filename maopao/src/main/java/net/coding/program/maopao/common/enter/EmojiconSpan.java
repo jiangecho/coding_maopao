@@ -3,7 +3,6 @@ package net.coding.program.maopao.common.enter;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.style.DynamicDrawableSpan;
-
 import net.coding.program.maopao.common.MyImageGetter;
 import net.coding.program.maopao.message.EmojiFragment;
 

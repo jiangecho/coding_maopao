@@ -2,17 +2,12 @@ package net.coding.program.maopao.common.network.apache;
 
 import org.apache.http.conn.ssl.SSLSocketFactory;
 
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.security.KeyManagementException;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
-
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManager;
+import java.security.*;
 
 /**
  * Taken from: http://janis.peisenieks.lv/en/76/english-making-an-ssl-connection-via-android/

@@ -3,7 +3,6 @@ package net.coding.program.maopao.maopao;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
-
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;

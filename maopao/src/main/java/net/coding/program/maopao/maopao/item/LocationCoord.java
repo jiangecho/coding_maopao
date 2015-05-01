@@ -2,7 +2,6 @@ package net.coding.program.maopao.maopao.item;
 
 import android.text.TextUtils;
 import android.util.Log;
-
 import net.coding.program.maopao.model.LocationObject;
 
 /**

@@ -18,19 +18,12 @@ import android.widget.AdapterView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.DialogUtil;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.htmltext.URLSpanNoUnderline;
 import net.coding.program.maopao.common.umeng.UmengActivity;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 
 import java.util.ArrayList;
 

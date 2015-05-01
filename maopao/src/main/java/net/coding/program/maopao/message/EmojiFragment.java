@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.MyImageGetter;
 import net.coding.program.maopao.common.enter.EnterLayout;

@@ -3,18 +3,11 @@ package net.coding.program.maopao.user;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.model.UserObject;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.androidannotations.annotations.res.StringArrayRes;
 
 @EActivity(R.layout.activity_user_detail_more)

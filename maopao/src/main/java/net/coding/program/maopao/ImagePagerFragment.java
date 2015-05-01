@@ -12,7 +12,6 @@ import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.github.lzyzsd.circleprogress.DonutProgress;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.FileAsyncHttpResponseHandler;
@@ -22,7 +21,6 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.assist.ImageSize;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
-
 import net.coding.program.R;
 import net.coding.program.app.MyApp;
 import net.coding.program.maopao.common.FileUtil;
@@ -30,7 +28,6 @@ import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.network.BaseFragment;
 import net.coding.program.maopao.common.network.MyAsyncHttpClient;
 import net.coding.program.maopao.model.AttachmentFileObject;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.FragmentArg;
@@ -38,13 +35,12 @@ import org.androidannotations.annotations.ViewById;
 import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.File;
-import java.util.HashMap;
-
 import pl.droidsonroids.gif.GifImageView;
 import uk.co.senab.photoview.PhotoView;
 import uk.co.senab.photoview.PhotoViewAttacher;
+
+import java.io.File;
+import java.util.HashMap;
 
 /**
  * Created by chaochen on 14-9-7.

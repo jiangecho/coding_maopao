@@ -1,24 +1,23 @@
 package net.coding.program.app;
 
 
-import android.support.v7.app.ActionBar;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
-
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.readystatesoftware.viewbadger.BadgeView;
-
+import de.hdodenhof.circleimageview.CircleImageView;
 import net.coding.program.R;
 import net.coding.program.maopao.common.ClickSmallImage;
 import net.coding.program.maopao.common.Global;
@@ -29,16 +28,9 @@ import net.coding.program.maopao.maopao.MaopaoListFragment;
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.UserObject;
 import net.coding.program.maopao.user.UserDetailActivity_;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Click;
-import org.androidannotations.annotations.EFragment;
-import org.androidannotations.annotations.OnActivityResult;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 @EFragment(R.layout.fragment_navigation_drawer)
 public class NavigationDrawerFragment extends BaseFragment {

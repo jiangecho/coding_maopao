@@ -1,7 +1,6 @@
 package net.coding.program.maopao.common.enter;
 
 import android.graphics.drawable.Drawable;
-
 import net.coding.program.app.MyApp;
 
 /**

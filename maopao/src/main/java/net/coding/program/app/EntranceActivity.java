@@ -8,15 +8,13 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
-import net.coding.program.maopao.common.Global;
 import net.coding.program.app.login.LoginBackground;
+import net.coding.program.maopao.BaseActivity;
+import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.UnreadNotify;
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.UserObject;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;

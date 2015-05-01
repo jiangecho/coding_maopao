@@ -10,15 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.PopupWindow;
+import android.widget.*;
 import android.widget.PopupWindow.OnDismissListener;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-
 import net.coding.program.R;
 
 import java.util.ArrayList;

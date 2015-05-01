@@ -12,9 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.Toast;
-
-import net.coding.program.maopao.ImagePagerFragment_;
 import net.coding.program.R;
+import net.coding.program.maopao.ImagePagerFragment_;
 import net.coding.program.maopao.common.umeng.UmengActivity;
 import net.coding.program.maopao.maopao.MaopaoAddActivity;
 

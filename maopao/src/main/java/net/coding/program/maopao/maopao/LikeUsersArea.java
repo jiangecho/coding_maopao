@@ -10,15 +10,13 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+import de.hdodenhof.circleimageview.CircleImageView;
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.ImageLoadTool;
 import net.coding.program.maopao.model.Maopao;
 
 import java.util.ArrayList;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class LikeUsersArea {
     Fragment fragment;

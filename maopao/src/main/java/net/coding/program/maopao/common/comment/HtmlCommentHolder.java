@@ -3,13 +3,8 @@ package net.coding.program.maopao.common.comment;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
-
 import net.coding.program.R;
-import net.coding.program.maopao.common.DialogCopy;
-import net.coding.program.maopao.common.Global;
-import net.coding.program.maopao.common.HtmlContent;
-import net.coding.program.maopao.common.ImageLoadTool;
-import net.coding.program.maopao.common.LongClickLinkMovementMethod;
+import net.coding.program.maopao.common.*;
 import net.coding.program.maopao.model.BaseComment;
 
 /**

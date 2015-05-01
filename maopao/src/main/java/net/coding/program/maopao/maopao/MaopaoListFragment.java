@@ -1,36 +1,23 @@
 package net.coding.program.maopao.maopao;
 
 
-import android.support.v7.app.ActionBar;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
-import android.widget.BaseAdapter;
-import android.widget.CheckBox;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-
+import android.widget.*;
 import com.loopj.android.http.RequestParams;
 import com.melnykov.fab.FloatingActionButton;
-
-import net.coding.program.maopao.FootUpdate;
-import net.coding.program.app.MyApp;
 import net.coding.program.R;
-import net.coding.program.maopao.common.BlankViewDisplay;
-import net.coding.program.maopao.common.ClickSmallImage;
-import net.coding.program.maopao.common.Global;
-import net.coding.program.maopao.common.ListModify;
-import net.coding.program.maopao.common.MyImageGetter;
-import net.coding.program.maopao.common.StartActivity;
-import net.coding.program.maopao.common.TextWatcherAt;
+import net.coding.program.app.MyApp;
+import net.coding.program.maopao.FootUpdate;
+import net.coding.program.maopao.common.*;
 import net.coding.program.maopao.common.enter.EnterEmojiLayout;
 import net.coding.program.maopao.common.enter.EnterLayout;
 import net.coding.program.maopao.common.network.RefreshBaseFragment;
@@ -41,12 +28,7 @@ import net.coding.program.maopao.model.DynamicObject;
 import net.coding.program.maopao.model.Maopao;
 import net.coding.program.maopao.model.UserObject;
 import net.coding.program.maopao.third.EmojiFilter;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Click;
-import org.androidannotations.annotations.EFragment;
-import org.androidannotations.annotations.FragmentArg;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -2,17 +2,11 @@ package net.coding.program.maopao.model;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import net.coding.program.app.login.LoginBackground;
 import net.coding.program.maopao.maopao.MaopaoAddActivity;
 import net.coding.program.maopao.user.UsersListActivity;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Calendar;
 

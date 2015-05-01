@@ -3,9 +3,8 @@ package net.coding.program.maopao.third;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 
 public class PickerImagesActivity extends BaseActivity {
 

@@ -4,21 +4,13 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-
 import com.loopj.android.http.RequestParams;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.model.AccountInfo;
 import net.coding.program.maopao.model.UserObject;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

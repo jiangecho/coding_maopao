@@ -1,7 +1,6 @@
 package net.coding.program.maopao.model;
 
 import net.coding.program.maopao.common.Global;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

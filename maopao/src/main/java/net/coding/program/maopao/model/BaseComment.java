@@ -1,7 +1,6 @@
 package net.coding.program.maopao.model;
 
 import net.coding.program.app.MyApp;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

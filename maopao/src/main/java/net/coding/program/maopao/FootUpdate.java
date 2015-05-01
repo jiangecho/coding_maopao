@@ -2,7 +2,6 @@ package net.coding.program.maopao;
 
 import android.view.LayoutInflater;
 import android.view.View;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 

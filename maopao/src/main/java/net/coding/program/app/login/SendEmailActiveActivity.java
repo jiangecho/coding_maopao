@@ -2,7 +2,6 @@ package net.coding.program.app.login;
 
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;

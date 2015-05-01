@@ -5,12 +5,10 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.DialogUtil;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.network.RefreshBaseFragment;
-
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.OptionsItem;
 

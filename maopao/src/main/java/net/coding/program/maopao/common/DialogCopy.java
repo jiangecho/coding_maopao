@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import net.coding.program.R;
 
 /**

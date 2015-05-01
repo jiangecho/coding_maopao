@@ -2,7 +2,6 @@ package net.coding.program.maopao.model;
 
 import net.coding.program.app.MyApp;
 import net.coding.program.maopao.common.Global;
-
 import org.json.JSONObject;
 
 import java.io.Serializable;

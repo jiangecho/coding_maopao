@@ -3,7 +3,6 @@ package net.coding.program.maopao.maopao.item;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.DialogCopy;
 import net.coding.program.maopao.common.Global;

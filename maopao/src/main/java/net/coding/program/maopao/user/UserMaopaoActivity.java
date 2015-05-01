@@ -3,9 +3,8 @@ package net.coding.program.maopao.user;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.MenuItem;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.maopao.MaopaoListFragment;
 import net.coding.program.maopao.maopao.MaopaoListFragment_;
 

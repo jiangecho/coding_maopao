@@ -13,14 +13,8 @@ import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-
+import android.widget.*;
 import com.loopj.android.http.RequestParams;
-
 import net.coding.program.R;
 import net.coding.program.app.MyApp;
 import net.coding.program.maopao.common.ClickSmallImage;
@@ -35,12 +29,7 @@ import net.coding.program.maopao.user.ProvincesPickerDialog;
 import net.coding.program.maopao.user.SetUserInfoActivity_;
 import net.coding.program.maopao.user.SetUserTagActivity_;
 import net.coding.program.maopao.user.UserProvincesDialogFragment;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.androidannotations.annotations.res.StringArrayRes;
 import org.json.JSONException;
 import org.json.JSONObject;

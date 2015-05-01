@@ -3,7 +3,6 @@ package net.coding.program.maopao.maopao;
 import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.ImageLoadTool;
 import net.coding.program.maopao.maopao.item.ContentAreaImages;

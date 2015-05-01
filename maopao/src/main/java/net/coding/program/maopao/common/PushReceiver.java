@@ -7,17 +7,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
-
-import com.tencent.android.tpush.XGPushBaseReceiver;
-import com.tencent.android.tpush.XGPushClickedResult;
-import com.tencent.android.tpush.XGPushRegisterResult;
-import com.tencent.android.tpush.XGPushShowedResult;
-import com.tencent.android.tpush.XGPushTextMessage;
-
-import net.coding.program.maopao.MyPushReceiver;
+import com.tencent.android.tpush.*;
 import net.coding.program.R;
+import net.coding.program.maopao.MyPushReceiver;
 import net.coding.program.maopao.model.AccountInfo;
-
 import org.json.JSONObject;
 
 /**

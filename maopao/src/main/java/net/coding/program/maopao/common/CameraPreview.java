@@ -5,11 +5,7 @@ import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.Display;
-import android.view.Surface;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-import android.view.WindowManager;
+import android.view.*;
 
 import java.util.List;
 

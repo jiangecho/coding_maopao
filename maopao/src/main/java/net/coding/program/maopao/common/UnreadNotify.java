@@ -2,14 +2,11 @@ package net.coding.program.maopao.common;
 
 import android.content.Context;
 import android.view.View;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.readystatesoftware.viewbadger.BadgeView;
-
 import net.coding.program.app.MyApp;
 import net.coding.program.maopao.common.network.MyAsyncHttpClient;
-
 import org.apache.http.Header;
 import org.json.JSONObject;
 

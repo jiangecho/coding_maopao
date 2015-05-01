@@ -3,28 +3,16 @@ package net.coding.program.maopao.maopao;
 import android.content.Intent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.CheckBox;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-
+import android.widget.*;
 import com.loopj.android.http.RequestParams;
-
-import net.coding.program.maopao.BaseActivity;
-import net.coding.program.app.MyApp;
 import net.coding.program.R;
+import net.coding.program.app.MyApp;
+import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.model.DynamicObject;
 import net.coding.program.maopao.user.UserDetailActivity;
 import net.coding.program.maopao.user.UserDetailActivity_;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

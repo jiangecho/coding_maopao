@@ -8,9 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.NumberPicker;
-
 import net.coding.program.R;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 

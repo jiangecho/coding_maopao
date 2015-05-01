@@ -2,15 +2,9 @@ package net.coding.program.maopao.maopao;
 
 import android.view.View;
 import android.widget.TextView;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.ViewById;
+import net.coding.program.maopao.BaseActivity;
+import org.androidannotations.annotations.*;
 
 /**
  * Created by Neutra on 2015/3/14.

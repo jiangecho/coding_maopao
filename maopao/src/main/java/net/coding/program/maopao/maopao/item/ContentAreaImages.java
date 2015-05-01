@@ -4,10 +4,8 @@ import android.text.Html;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.HtmlContent;

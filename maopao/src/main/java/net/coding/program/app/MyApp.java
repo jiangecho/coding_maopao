@@ -3,13 +3,11 @@ package net.coding.program.app;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
-
 import com.baidu.mapapi.SDKInitializer;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.PhoneType;
 import net.coding.program.maopao.common.Unread;

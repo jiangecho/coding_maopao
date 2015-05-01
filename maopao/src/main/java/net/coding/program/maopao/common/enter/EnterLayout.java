@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.CommentBackup;
 import net.coding.program.maopao.common.EmojiTranslate;

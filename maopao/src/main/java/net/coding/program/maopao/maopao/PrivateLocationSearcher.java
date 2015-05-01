@@ -1,9 +1,7 @@
 package net.coding.program.maopao.maopao;
 
 import android.content.Context;
-
 import com.baidu.mapapi.model.LatLng;
-
 import net.coding.program.maopao.model.LocationObject;
 
 import java.util.List;

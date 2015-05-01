@@ -1,9 +1,7 @@
 package net.coding.program.maopao.model;
 
 import android.graphics.Color;
-
 import net.coding.program.R;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

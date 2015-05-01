@@ -13,18 +13,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.loopj.android.http.RequestParams;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
-
+import net.coding.program.R;
 import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.FootUpdate;
-import net.coding.program.R;
 import net.coding.program.maopao.common.CustomDialog;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.ImageLoadTool;
 import net.coding.program.maopao.user.UserDetailActivity_;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

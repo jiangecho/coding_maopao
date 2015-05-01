@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.MyImageGetter;

@@ -11,22 +11,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.Toast;
-
 import com.loopj.android.http.RequestParams;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
-
 import net.coding.program.R;
-import net.coding.program.maopao.common.CustomDialog;
-import net.coding.program.maopao.common.DialogUtil;
-import net.coding.program.maopao.common.Global;
-import net.coding.program.maopao.common.ImageLoadTool;
-import net.coding.program.maopao.common.UnreadNotify;
+import net.coding.program.maopao.common.*;
 import net.coding.program.maopao.common.network.NetworkCallback;
 import net.coding.program.maopao.common.network.NetworkImpl;
 import net.coding.program.maopao.common.umeng.UmengActivity;
 import net.coding.program.maopao.user.UserDetailActivity_;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

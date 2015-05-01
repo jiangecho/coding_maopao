@@ -37,10 +37,8 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.astuetz.pagerslidingtabstrip.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
-
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.ImageLoadTool;
 

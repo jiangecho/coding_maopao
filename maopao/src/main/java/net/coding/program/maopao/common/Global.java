@@ -26,13 +26,10 @@ import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebView;
 import android.widget.ImageView;
-
 import com.loopj.android.http.PersistentCookieStore;
-
 import net.coding.program.app.MyApp;
 import net.coding.program.maopao.common.htmltext.GrayQuoteSpan;
 import net.coding.program.maopao.common.htmltext.URLSpanNoUnderline;
-
 import org.apache.http.cookie.Cookie;
 import org.json.JSONObject;
 import org.xml.sax.XMLReader;

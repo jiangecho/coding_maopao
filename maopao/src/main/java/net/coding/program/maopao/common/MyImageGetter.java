@@ -3,7 +3,6 @@ package net.coding.program.maopao.common;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.Html;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.enter.DrawableTool;
 

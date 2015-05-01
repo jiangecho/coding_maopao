@@ -12,23 +12,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import com.baidu.mapapi.model.LatLng;
-
+import net.coding.program.R;
 import net.coding.program.maopao.BaseActivity;
 import net.coding.program.maopao.FootUpdate;
-import net.coding.program.R;
 import net.coding.program.maopao.maopao.item.LocationItem;
 import net.coding.program.maopao.model.LocationObject;
-
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.Extra;
-import org.androidannotations.annotations.ItemClick;
-import org.androidannotations.annotations.OnActivityResult;
-import org.androidannotations.annotations.OptionsItem;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,25 +1,17 @@
 package net.coding.program.maopao.third;
 
 import android.content.Context;
-
 import com.loopj.android.http.PersistentCookieStore;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
-
 import net.coding.program.maopao.common.Global;
-
 import org.apache.http.cookie.Cookie;
 
+import javax.net.ssl.*;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.List;
-
-import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
 
 /**
  * Created by chaochen on 14-10-7.

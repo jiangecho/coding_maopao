@@ -3,9 +3,8 @@ package net.coding.program.maopao.common;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.webkit.WebView;
-
-import net.coding.program.maopao.BaseActivity;
 import net.coding.program.R;
+import net.coding.program.maopao.BaseActivity;
 
 public class TermsActivity extends BaseActivity {
 

@@ -1,21 +1,17 @@
 package net.coding.program.maopao.common.network;
 
 import android.content.Context;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.PersistentCookieStore;
-
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.network.apache.CustomSSLSocketFactory;
 import net.coding.program.maopao.common.network.apache.CustomX509TrustManager;
-
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.conn.ssl.SSLSocketFactory;
 
-import java.security.SecureRandom;
-
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
+import java.security.SecureRandom;
 
 /**
  * Created by chaochen on 14-10-8.

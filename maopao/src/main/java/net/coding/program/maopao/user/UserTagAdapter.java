@@ -7,9 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CheckedTextView;
-
 import net.coding.program.R;
-
 import org.json.JSONArray;
 
 import java.util.HashSet;

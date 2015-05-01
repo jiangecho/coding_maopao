@@ -3,7 +3,6 @@ package net.coding.program.maopao.common;
 import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
-
 import net.coding.program.R;
 
 /**

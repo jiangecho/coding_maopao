@@ -2,11 +2,9 @@ package net.coding.program.maopao.model;
 
 import android.text.SpannableString;
 import android.text.Spanned;
-
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.HtmlContent;
 import net.coding.program.maopao.common.MyImageGetter;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

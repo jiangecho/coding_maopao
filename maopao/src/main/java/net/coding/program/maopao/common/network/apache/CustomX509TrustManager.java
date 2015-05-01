@@ -1,10 +1,9 @@
 package net.coding.program.maopao.common.network.apache;
 
 
+import javax.net.ssl.X509TrustManager;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
-
-import javax.net.ssl.X509TrustManager;
 
 public class CustomX509TrustManager implements X509TrustManager {
 

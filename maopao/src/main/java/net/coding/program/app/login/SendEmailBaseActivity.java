@@ -10,15 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-
 import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 import net.coding.program.maopao.common.enter.SimpleTextWatcher;
 import net.coding.program.maopao.common.network.MyAsyncHttpClient;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;

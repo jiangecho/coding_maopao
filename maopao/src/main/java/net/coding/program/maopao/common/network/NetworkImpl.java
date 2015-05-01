@@ -3,14 +3,11 @@ package net.coding.program.maopao.common.network;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-
 import net.coding.program.app.LoginActivity_;
 import net.coding.program.maopao.common.Global;
-
 import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;

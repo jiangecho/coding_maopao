@@ -19,7 +19,13 @@ public class BaseComment implements Serializable {
         id = json.optInt("id");
 
         if (json.has("owner")) {
-            owner = new DynamicObject.Owner(json.getJSONObject("owner"));
+            try {
+                // when publish a comment, the owner is null, it means the owner is
+                // yourself
+                owner = new DynamicObject.Owner(json.getJSONObject("owner"));
+            }catch (JSONException e){
+                e.printStackTrace();
+            }
         }
 
         owner_id = json.optInt("owner_id");

@@ -19,7 +19,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_like_users_list)
+@EActivity(R.layout.activity_like_users_list_mp)
 public class LikeUsersListActivity extends BaseActivity {
 
     @Extra
@@ -93,7 +93,7 @@ public class LikeUsersListActivity extends BaseActivity {
         public View getView(final int position, View convertView, ViewGroup parent) {
             final ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.activity_users_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.activity_users_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.name = (TextView) convertView.findViewById(R.id.name);
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);

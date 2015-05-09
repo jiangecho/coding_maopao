@@ -26,7 +26,7 @@ import java.util.ArrayList;
 /*
  * 粉丝，关注的人列表
  */
-@EActivity(R.layout.activity_users_list)
+@EActivity(R.layout.activity_users_list_mp)
 public class UsersListActivity extends BaseActivity implements FootUpdate.LoadMore {
 
     public static enum Friend {
@@ -340,7 +340,7 @@ public class UsersListActivity extends BaseActivity implements FootUpdate.LoadMo
         public View getView(final int position, View convertView, ViewGroup parent) {
             final ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.activity_users_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.activity_users_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.name = (TextView) convertView.findViewById(R.id.name);
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);

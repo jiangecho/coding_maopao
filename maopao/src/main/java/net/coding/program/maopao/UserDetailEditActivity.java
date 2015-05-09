@@ -38,7 +38,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-@EActivity(R.layout.activity_user_detail_edit)
+@EActivity(R.layout.activity_user_detail_edit_mp)
 @OptionsMenu(R.menu.user_detail_edit)
 public class UserDetailEditActivity extends BaseActivity implements DatePickerFragment.DateSet {
 
@@ -100,7 +100,7 @@ public class UserDetailEditActivity extends BaseActivity implements DatePickerFr
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         user = AccountInfo.loadAccount(this);
 
-        View head = mInflater.inflate(R.layout.activity_user_info_head, null, false);
+        View head = mInflater.inflate(R.layout.activity_user_info_head_mp, null, false);
         icon = (ImageView) head.findViewById(R.id.icon);
         icon.setOnClickListener(new ClickSmallImage(this));
         iconfromNetwork(icon, user.avatar);
@@ -174,7 +174,7 @@ public class UserDetailEditActivity extends BaseActivity implements DatePickerFr
         public View getView(int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.list_item_2_text_align_right, parent, false);
+                convertView = mInflater.inflate(R.layout.list_item_2_text_align_right_mp, parent, false);
                 holder = new ViewHolder();
                 holder.first = (TextView) convertView.findViewById(R.id.first);
                 holder.second = (TextView) convertView.findViewById(R.id.second);

@@ -9,7 +9,7 @@ import org.androidannotations.annotations.*;
 /**
  * Created by Neutra on 2015/3/14.
  */
-@EActivity(R.layout.activity_location_detail)
+@EActivity(R.layout.activity_location_detail_mp)
 public class LocationDetailActivity extends BaseActivity {
 
     @ViewById

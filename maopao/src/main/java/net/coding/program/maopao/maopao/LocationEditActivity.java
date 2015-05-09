@@ -12,7 +12,7 @@ import org.androidannotations.annotations.*;
 /**
  * Created by Neutra on 2015/3/14.
  */
-@EActivity(R.layout.activity_location_edit)
+@EActivity(R.layout.activity_location_edit_mp)
 @OptionsMenu(R.menu.location_edit)
 public class LocationEditActivity extends BaseActivity {
     @ViewById

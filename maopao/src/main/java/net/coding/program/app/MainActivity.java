@@ -35,7 +35,7 @@ import org.androidannotations.annotations.res.StringArrayRes;
 
 import java.util.List;
 
-@EActivity(R.layout.activity_main)
+@EActivity(R.layout.activity_main_mp)
 public class MainActivity extends BaseActivity
         implements NavigationDrawerFragment_.NavigationDrawerCallbacks {
 
@@ -140,7 +140,7 @@ public class MainActivity extends BaseActivity
         setSupportActionBar(toolbar);
 
         ActionBar supportActionBar = getSupportActionBar();
-        supportActionBar.setCustomView(R.layout.actionbar_custom_spinner);
+        supportActionBar.setCustomView(R.layout.actionbar_custom_spinner_mp);
         actionbarCustom = supportActionBar.getCustomView();
         Spinner spinner = (Spinner) supportActionBar.getCustomView().findViewById(R.id.spinner);
         spinner.setAdapter(mSpinnerAdapter);
@@ -346,7 +346,7 @@ public class MainActivity extends BaseActivity
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = inflater.inflate(R.layout.spinner_layout_head, parent, false);
+                convertView = inflater.inflate(R.layout.spinner_layout_head_mp, parent, false);
             }
 
             ((TextView) convertView).setText(project_activity_action_list[position]);
@@ -357,7 +357,7 @@ public class MainActivity extends BaseActivity
         @Override
         public View getDropDownView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = inflater.inflate(R.layout.spinner_layout_item, parent, false);
+                convertView = inflater.inflate(R.layout.spinner_layout_item_mp, parent, false);
             }
 
             TextView title = (TextView) convertView.findViewById(R.id.title);

@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_add_follow)
+@EActivity(R.layout.activity_add_follow_mp)
 public class AddFollowActivity extends BaseActivity {
 
     String HOST_SEARCH_USER = Global.HOST + "/api/user/search?key=%s";
@@ -160,7 +160,7 @@ public class AddFollowActivity extends BaseActivity {
         public View getView(final int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.activity_add_follow_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.activity_add_follow_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);
                 holder.name = (TextView) convertView.findViewById(R.id.name);
@@ -201,7 +201,7 @@ public class AddFollowActivity extends BaseActivity {
         public View getView(final int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.activity_add_follow_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.activity_add_follow_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);
                 holder.name = (TextView) convertView.findViewById(R.id.name);

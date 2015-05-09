@@ -14,7 +14,7 @@ public class TermsActivity extends BaseActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        setContentView(R.layout.activity_terms);
+        setContentView(R.layout.activity_terms_mp);
 
         WebView webView = (WebView) findViewById(R.id.webview);
         Global.initWebView(webView);

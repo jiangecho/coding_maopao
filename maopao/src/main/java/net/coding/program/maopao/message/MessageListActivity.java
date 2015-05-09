@@ -33,7 +33,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-@EActivity(R.layout.activity_message_list)
+@EActivity(R.layout.activity_message_list_mp)
 @OptionsMenu(R.menu.message_list)
 public class MessageListActivity extends BaseActivity implements SwipeRefreshLayout.OnRefreshListener, FootUpdate.LoadMore, StartActivity, EnterLayout.CameraAndPhoto {
 
@@ -488,7 +488,7 @@ public class MessageListActivity extends BaseActivity implements SwipeRefreshLay
             Message.MessageObject item = (Message.MessageObject) getItem(position);
             ViewHolder holder;
             if (convertView == null) {
-                int res = getItemViewType(position) == 0 ? R.layout.message_list_list_item_left : R.layout.message_list_list_item_right;
+                int res = getItemViewType(position) == 0 ? R.layout.message_list_list_item_left_mp : R.layout.message_list_list_item_right_mp;
                 convertView = mInflater.inflate(res, parent, false);
                 holder = new ViewHolder();
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);

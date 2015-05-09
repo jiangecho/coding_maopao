@@ -12,7 +12,7 @@ public class UpdateDialogActivity extends UmengActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_dialog);
+        setContentView(R.layout.activity_update_dialog_mp);
     }
 
 

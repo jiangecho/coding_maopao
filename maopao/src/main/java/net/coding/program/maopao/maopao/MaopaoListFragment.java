@@ -36,7 +36,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-@EFragment(R.layout.fragment_maopao_list)
+@EFragment(R.layout.fragment_maopao_list_mp)
 public class MaopaoListFragment extends RefreshBaseFragment implements FootUpdate.LoadMore, StartActivity {
 
     ArrayList<Maopao.MaopaoObject> mData = new ArrayList();
@@ -502,7 +502,7 @@ public class MaopaoListFragment extends RefreshBaseFragment implements FootUpdat
 
             if (convertView == null) {
                 holder = new ViewHolder();
-                convertView = mInflater.inflate(R.layout.fragment_maopao_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.fragment_maopao_list_item_mp, parent, false);
 
                 holder.maopaoItem = convertView.findViewById(R.id.MaopaoItem);
                 holder.maopaoItem.setOnClickListener(mOnClickMaopaoItem);

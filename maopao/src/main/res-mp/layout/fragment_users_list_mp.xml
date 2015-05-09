@@ -20,7 +20,7 @@
 
     <include
         android:id="@+id/blankLayout"
-        layout="@layout/view_exception"
+        layout="@layout/view_exception_mp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

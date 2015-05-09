@@ -4,7 +4,7 @@ import net.coding.program.R;
 import net.coding.program.maopao.common.Global;
 import org.androidannotations.annotations.EActivity;
 
-@EActivity(R.layout.activity_reset_password_base)
+@EActivity(R.layout.activity_reset_password_base_mp)
 public class ResetPasswordActivity extends ResetPasswordBaseActivity {
 
     @Override

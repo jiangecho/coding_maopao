@@ -37,6 +37,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:name="net.coding.program.app.NavigationDrawerFragment_"
-        tools:layout="@layout/fragment_navigation_drawer" />
+        tools:layout="@layout/fragment_navigation_drawer_mp" />
 
 </android.support.v4.widget.DrawerLayout>

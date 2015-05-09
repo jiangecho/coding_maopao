@@ -27,7 +27,7 @@ import java.io.File;
 /**
  * Created by cc191954 on 14-8-14.
  */
-@EActivity(R.layout.entrance_image)
+@EActivity(R.layout.entrance_image_mp)
 public class EntranceActivity extends BaseActivity {
 
     @ViewById

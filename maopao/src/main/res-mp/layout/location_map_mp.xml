@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/locatino_map_point" />
+    <include layout="@layout/locatino_map_point_mp" />
 
     <com.baidu.mapapi.map.MapView
         android:id="@+id/mapView"

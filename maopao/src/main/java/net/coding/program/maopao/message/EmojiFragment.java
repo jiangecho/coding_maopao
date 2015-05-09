@@ -139,10 +139,10 @@ public class EmojiFragment extends Fragment {
 
         mType = type;
         if (type == Type.Small) {
-            mItemLayout = R.layout.gridview_emotion_emoji;
+            mItemLayout = R.layout.gridview_emotion_emoji_mp;
             mGridViewColumns = 7;
         } else {
-            mItemLayout = R.layout.gridview_emotion_big;
+            mItemLayout = R.layout.gridview_emotion_big_mp;
             mGridViewColumns = 4;
         }
     }
@@ -156,7 +156,7 @@ public class EmojiFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mInflater = inflater;
-        View v = inflater.inflate(R.layout.emoji_gridview, container, false);
+        View v = inflater.inflate(R.layout.emoji_gridview_mp, container, false);
 
         if (savedInstanceState != null) {
             mEmojiData = savedInstanceState.getStringArray("mEmojiData");

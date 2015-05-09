@@ -59,7 +59,7 @@ public class UserTagAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if (convertView == null) {
-            convertView = mInflater.inflate(R.layout.activity_user_tags_list_item, parent, false);
+            convertView = mInflater.inflate(R.layout.activity_user_tags_list_item_mp, parent, false);
             holder = new ViewHolder();
             holder.tag = (CheckedTextView) convertView.findViewById(R.id.name);
             convertView.setTag(holder);

@@ -27,7 +27,7 @@ import org.androidannotations.annotations.res.StringArrayRes;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_user_detail)
+@EActivity(R.layout.activity_user_detail_mp)
 public class UserDetailActivity extends BaseActivity {
 
     UserObject mUserObject;

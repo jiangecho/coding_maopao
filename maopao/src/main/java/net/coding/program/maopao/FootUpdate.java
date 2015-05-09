@@ -28,7 +28,7 @@ public class FootUpdate {
     }
 
     public void initToHead(Object listView, LayoutInflater inflater, final LoadMore loadMore) {
-        View v = inflater.inflate(R.layout.listview_foot, null);
+        View v = inflater.inflate(R.layout.listview_foot_mp, null);
 
         // 为了防止触发listview的onListItemClick事件
         mLayout = v.findViewById(R.id.layout);
@@ -60,7 +60,7 @@ public class FootUpdate {
     }
 
     public void init(Object listView, LayoutInflater inflater, final LoadMore loadMore) {
-        View v = inflater.inflate(R.layout.listview_foot, null, false);
+        View v = inflater.inflate(R.layout.listview_foot_mp, null, false);
 
         // 为了防止触发listview的onListItemClick事件
         mLayout = v.findViewById(R.id.layout);

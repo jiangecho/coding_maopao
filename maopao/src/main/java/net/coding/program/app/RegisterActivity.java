@@ -29,7 +29,7 @@ import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_register)
+@EActivity(R.layout.activity_register_mp)
 public class RegisterActivity extends BaseAnnotationActivity {
 
     @ViewById

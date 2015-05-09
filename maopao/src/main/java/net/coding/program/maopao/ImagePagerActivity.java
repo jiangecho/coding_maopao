@@ -41,7 +41,7 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_image_pager)
+@EActivity(R.layout.activity_image_pager_mp)
 public class ImagePagerActivity extends UmengActivity {
 
     private static final String STATE_POSITION = "STATE_POSITION";

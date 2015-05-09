@@ -39,7 +39,7 @@ public class PhotoPickDetailActivity extends UmengActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo_pick_detail);
+        setContentView(R.layout.activity_photo_pick_detail_mp);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

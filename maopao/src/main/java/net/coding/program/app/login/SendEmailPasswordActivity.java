@@ -8,7 +8,7 @@ import org.androidannotations.annotations.EActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_base_send_email)
+@EActivity(R.layout.activity_base_send_email_mp)
 public class SendEmailPasswordActivity extends SendEmailBaseActivity {
 
 

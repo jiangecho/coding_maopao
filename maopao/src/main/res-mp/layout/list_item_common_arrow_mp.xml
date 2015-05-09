@@ -6,4 +6,4 @@
     android:layout_width="16dp"
     android:layout_height="16dp"
     android:background="@drawable/user_home_arrow"
-    tools:showIn="@layout/activity_user_detail" />
+    tools:showIn="@layout/activity_user_detail_mp" />

@@ -32,7 +32,7 @@ import java.io.InputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_maopao_detail)
+@EActivity(R.layout.activity_maopao_detail_mp)
 @OptionsMenu(R.menu.common_more)
 public class MaopaoDetailActivity extends CustomMoreActivity implements StartActivity, SwipeRefreshLayout.OnRefreshListener {
 
@@ -191,7 +191,7 @@ public class MaopaoDetailActivity extends CustomMoreActivity implements StartAct
 
     void initHead() {
         if (mListHead == null) {
-            mListHead = mInflater.inflate(R.layout.activity_maopao_detail_head, null, false);
+            mListHead = mInflater.inflate(R.layout.activity_maopao_detail_head_mp, null, false);
             listView.addHeaderView(mListHead);
         }
 
@@ -459,7 +459,7 @@ public class MaopaoDetailActivity extends CustomMoreActivity implements StartAct
         public View getView(int position, View convertView, ViewGroup parent) {
             HtmlCommentHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.activity_maopao_detail_item, parent, false);
+                convertView = mInflater.inflate(R.layout.activity_maopao_detail_item_mp, parent, false);
                 holder = new HtmlCommentHolder(convertView, onClickComment, myImageGetter, getImageLoad(), mOnClickUser);
                 convertView.setTag(R.id.layout, holder);
 

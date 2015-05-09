@@ -127,7 +127,7 @@
 
         </RelativeLayout>
 
-        <include layout="@layout/divide_15_top_bottom" />
+        <include layout="@layout/divide_15_top_bottom_mp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -136,24 +136,24 @@
 
             <include
                 android:id="@+id/pos0"
-                layout="@layout/list_item_2_text" />
+                layout="@layout/list_item_2_text_mp" />
 
-            <include layout="@layout/divide_1_12" />
+            <include layout="@layout/divide_1_12_mp" />
 
             <include
                 android:id="@+id/pos1"
-                layout="@layout/list_item_2_text" />
+                layout="@layout/list_item_2_text_mp" />
 
-            <include layout="@layout/divide_1_12" />
+            <include layout="@layout/divide_1_12_mp" />
 
             <include
                 android:id="@+id/pos2"
-                layout="@layout/list_item_2_text" />
+                layout="@layout/list_item_2_text_mp" />
 
         </LinearLayout>
 
 
-        <include layout="@layout/divide_15_top_bottom" />
+        <include layout="@layout/divide_15_top_bottom_mp" />
 
 
         <LinearLayout
@@ -188,11 +188,11 @@
                     android:textColor="#222222"
                     android:textSize="16sp" />
 
-                <include layout="@layout/list_item_common_arrow" />
+                <include layout="@layout/list_item_common_arrow_mp" />
 
             </LinearLayout>
 
-            <include layout="@layout/divide_1_12" />
+            <include layout="@layout/divide_1_12_mp" />
 
 
             <LinearLayout
@@ -220,12 +220,12 @@
                     android:textColor="#222222"
                     android:textSize="16sp" />
 
-                <include layout="@layout/list_item_common_arrow" />
+                <include layout="@layout/list_item_common_arrow_mp" />
 
             </LinearLayout>
         </LinearLayout>
 
-        <include layout="@layout/divide_15_top" />
+        <include layout="@layout/divide_15_top_mp" />
 
         <RelativeLayout
             android:id="@+id/sendMessageLayout"

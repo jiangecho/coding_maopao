@@ -66,7 +66,7 @@ public class ProvincesPickerDialog extends AlertDialog implements DialogInterfac
 
         LayoutInflater inflater =
                 (LayoutInflater) themeContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.fragment_user_provinces_dialog, null);
+        View view = inflater.inflate(R.layout.fragment_user_provinces_dialog_mp, null);
         setView(view);
 
 

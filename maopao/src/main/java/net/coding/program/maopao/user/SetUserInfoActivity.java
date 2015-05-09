@@ -13,7 +13,7 @@ import org.androidannotations.annotations.*;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_user_edit)
+@EActivity(R.layout.activity_user_edit_mp)
 @OptionsMenu(R.menu.set_password)
 public class SetUserInfoActivity extends BaseActivity {
 

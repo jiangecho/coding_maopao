@@ -14,7 +14,7 @@ import org.androidannotations.annotations.*;
 /**
  * Created by Neutra on 2015/3/14.
  */
-@EActivity(R.layout.location_map)
+@EActivity(R.layout.location_map_mp)
 public class LocationMapActivity extends BaseActivity {
     @ViewById
     MapView mapView;
@@ -60,7 +60,7 @@ public class LocationMapActivity extends BaseActivity {
             // sdk示例代码是用application context来创建infoWindow上的View的
             // 如果该view直接放在activity上，重复执行show/hide/show会出错
             View view = LayoutInflater.from(getApplicationContext())
-                    .inflate(R.layout.locatino_map_point, null);
+                    .inflate(R.layout.locatino_map_point_mp, null);
             TextView textView = (TextView) view.findViewById(R.id.textView);
             textView.setText(marker.getTitle());
             int yOffset = (int)(0.5f+TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40, getResources().getDisplayMetrics()));

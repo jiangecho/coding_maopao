@@ -1,0 +1,1 @@
+GET https://coding.net/api/tweet/public_tweets?last_id=99999999&sort=time HTTP/1.1

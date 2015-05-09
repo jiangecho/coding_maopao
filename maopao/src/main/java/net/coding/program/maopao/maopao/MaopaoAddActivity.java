@@ -38,7 +38,7 @@ import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_maopao_add)
+@EActivity(R.layout.activity_maopao_add_mp)
 public class MaopaoAddActivity extends BaseActivity implements StartActivity {
 
     public static final int PHOTO_MAX_COUNT = 6;
@@ -444,7 +444,7 @@ public class MaopaoAddActivity extends BaseActivity implements StartActivity {
             ViewHolder holder;
             if (convertView == null) {
                 holder = new ViewHolder();
-                holder.image = (ImageView) mInflater.inflate(R.layout.image_make_maopao, parent, false);
+                holder.image = (ImageView) mInflater.inflate(R.layout.image_make_maopao_mp, parent, false);
                 holderList.add(holder);
                 holder.image.setTag(holder);
             } else {

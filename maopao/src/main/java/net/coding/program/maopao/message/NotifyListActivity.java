@@ -21,7 +21,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.fragment_notify_list)
+@EActivity(R.layout.fragment_notify_list_mp)
 public class NotifyListActivity extends BaseActivity implements FootUpdate.LoadMore {
 
     private final String HOST_MARK_READ = Global.HOST + "/api/notification/mark-read";
@@ -136,7 +136,7 @@ public class NotifyListActivity extends BaseActivity implements FootUpdate.LoadM
             ViewHolder holder;
             if (convertView == null) {
                 holder = new ViewHolder();
-                convertView = mInflater.inflate(R.layout.fragment_notify_list_item_at, parent, false);
+                convertView = mInflater.inflate(R.layout.fragment_notify_list_item_at_mp, parent, false);
                 convertView.setTag(holder);
                 convertView.setOnClickListener(onClickItem);
 

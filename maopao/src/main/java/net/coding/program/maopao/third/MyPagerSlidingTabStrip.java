@@ -250,7 +250,7 @@ public class MyPagerSlidingTabStrip extends HorizontalScrollView {
 //		tab.setImageResource(resId);
 //
 //		addTab(position, tab);
-        View v = mInflater.inflate(net.coding.program.R.layout.imageview_head, null, false);
+        View v = mInflater.inflate(net.coding.program.R.layout.imageview_head_mp, null, false);
         ImageView head = (ImageView) v.findViewById(net.coding.program.R.id.head);
         if (url.isEmpty()) {
             head.setImageResource(net.coding.program.R.drawable.icon_all_task);

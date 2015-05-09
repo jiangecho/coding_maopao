@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Created by Neutra on 2015/3/11.
  */
-@EActivity(R.layout.activity_choose_location)
+@EActivity(R.layout.activity_choose_location_mp)
 @OptionsMenu(R.menu.location_search)
 public class LocationSearchActivity extends BaseActivity implements FootUpdate.LoadMore {
 
@@ -182,7 +182,7 @@ public class LocationSearchActivity extends BaseActivity implements FootUpdate.L
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = getLayoutInflater().inflate(R.layout.location_list_item, listView, false);
+                convertView = getLayoutInflater().inflate(R.layout.location_list_item_mp, listView, false);
             }
             LocationItem locationItem = LocationItem.from(convertView);
             LocationObject data = getItem(position);
@@ -268,7 +268,7 @@ public class LocationSearchActivity extends BaseActivity implements FootUpdate.L
         SearchAdapter() {
             searcher = new LocationSearcherGroup();
             searcher.configure(LocationSearchActivity.this, new LatLng(latitude, longitude), this);
-            footView = getLayoutInflater().inflate(R.layout.location_list_custom, listView, false);
+            footView = getLayoutInflater().inflate(R.layout.location_list_custom_mp, listView, false);
             customTextView = (TextView) footView.findViewById(R.id.secondary);
         }
 

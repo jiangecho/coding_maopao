@@ -12,7 +12,7 @@ import org.androidannotations.annotations.EFragment;
  * Created by yangzhen on 14-10-13.
  */
 
-@EFragment(R.layout.fragment_user_provinces_dialog)
+@EFragment(R.layout.fragment_user_provinces_dialog_mp)
 public class UserProvincesDialogFragment extends DialogFragment implements ProvincesPickerDialog.OnDateSetListener {
 
     //private UserInfoActivity mActivity;

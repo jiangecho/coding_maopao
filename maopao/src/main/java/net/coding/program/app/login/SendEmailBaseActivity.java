@@ -25,7 +25,7 @@ import org.apache.http.Header;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@EActivity(R.layout.activity_base_send_email)
+@EActivity(R.layout.activity_base_send_email_mp)
 public class SendEmailBaseActivity extends BaseAnnotationActivity {
 
     @ViewById

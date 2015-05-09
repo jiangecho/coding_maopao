@@ -7,7 +7,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.OptionsItem;
 
 
-@EActivity(R.layout.activity_base_annotation)
+@EActivity(R.layout.activity_base_annotation_mp)
 public class BaseAnnotationActivity extends BaseActivity {
 
     @AfterViews

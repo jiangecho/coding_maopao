@@ -16,7 +16,7 @@ import org.androidannotations.annotations.ViewById;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_reset_password_base)
+@EActivity(R.layout.activity_reset_password_base_mp)
 public abstract class ResetPasswordBaseActivity extends BaseActivity {
 
     @ViewById

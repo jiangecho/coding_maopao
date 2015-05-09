@@ -32,7 +32,7 @@ import org.androidannotations.annotations.*;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EFragment(R.layout.fragment_navigation_drawer)
+@EFragment(R.layout.fragment_navigation_drawer_mp)
 public class NavigationDrawerFragment extends BaseFragment {
 
     private NavigationDrawerCallbacks mCallbacks;

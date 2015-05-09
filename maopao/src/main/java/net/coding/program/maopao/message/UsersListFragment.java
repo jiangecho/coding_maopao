@@ -27,7 +27,7 @@ import java.util.ArrayList;
 /**
  * attention: 其实这就是消息那个页面，别被名字给忽悠了
  */
-@EFragment(R.layout.fragment_users_list)
+@EFragment(R.layout.fragment_users_list_mp)
 @OptionsMenu(R.menu.message_users_list)
 public class UsersListFragment extends RefreshBaseFragment implements FootUpdate.LoadMore, StartActivity {
 
@@ -138,7 +138,7 @@ public class UsersListFragment extends RefreshBaseFragment implements FootUpdate
     }
 
     private void initHead() {
-        View v = mInflater.inflate(R.layout.fragment_message_user_list_head, null, false);
+        View v = mInflater.inflate(R.layout.fragment_message_user_list_head_mp, null, false);
 
         v.findViewById(R.id.atLayout).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -334,7 +334,7 @@ public class UsersListFragment extends RefreshBaseFragment implements FootUpdate
         public View getView(int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.fragment_message_user_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.fragment_message_user_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.icon =
                         (ImageView) convertView.findViewById(R.id.icon);

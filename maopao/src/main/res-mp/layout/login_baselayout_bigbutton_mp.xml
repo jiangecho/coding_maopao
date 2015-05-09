@@ -14,4 +14,4 @@
     android:textColor="@drawable/font_login_button"
     android:textSize="18sp"
     android:textStyle="bold"
-    tools:showIn="@layout/activity_register" />
+    tools:showIn="@layout/activity_register_mp" />

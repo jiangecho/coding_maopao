@@ -40,7 +40,7 @@ import org.json.JSONObject;
 
 import java.io.File;
 
-@EActivity(R.layout.activity_login)
+@EActivity(R.layout.activity_login_mp)
 public class LoginActivity extends BaseActivity {
 
     @Extra

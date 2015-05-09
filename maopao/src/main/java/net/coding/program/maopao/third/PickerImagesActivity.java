@@ -11,7 +11,7 @@ public class PickerImagesActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_picker_images);
+        setContentView(R.layout.activity_picker_images_mp);
     }
 
     @Override

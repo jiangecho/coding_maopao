@@ -8,7 +8,7 @@ import org.androidannotations.annotations.EActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@EActivity(R.layout.activity_base_send_email)
+@EActivity(R.layout.activity_base_send_email_mp)
 public class SendEmailActiveActivity extends SendEmailBaseActivity {
 
     private final String hostResendEmail = Global.HOST + "/api/activate?email=%s&j_captcha=%s";

@@ -103,15 +103,15 @@
                     android:layout_marginTop="4dp">
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image0" />
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image1" />
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image2" />
 
                 </LinearLayout>
@@ -124,15 +124,15 @@
                     android:visibility="gone">
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image3" />
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image4" />
 
                     <include
-                        layout="@layout/maopao_image"
+                        layout="@layout/maopao_image_mp"
                         android:id="@+id/image5" />
 
                 </LinearLayout>
@@ -291,23 +291,23 @@
 
                         <include
                             android:id="@+id/comment0"
-                            layout="@layout/maopao_list_comment_area_item" />
+                            layout="@layout/maopao_list_comment_area_item_mp" />
 
                         <include
                             android:id="@+id/comment1"
-                            layout="@layout/maopao_list_comment_area_item" />
+                            layout="@layout/maopao_list_comment_area_item_mp" />
 
                         <include
                             android:id="@+id/comment2"
-                            layout="@layout/maopao_list_comment_area_item" />
+                            layout="@layout/maopao_list_comment_area_item_mp" />
 
                         <include
                             android:id="@+id/comment3"
-                            layout="@layout/maopao_list_comment_area_item" />
+                            layout="@layout/maopao_list_comment_area_item_mp" />
 
                         <include
                             android:id="@+id/comment4"
-                            layout="@layout/maopao_list_comment_area_item" />
+                            layout="@layout/maopao_list_comment_area_item_mp" />
 
                     </LinearLayout>
                 </LinearLayout>

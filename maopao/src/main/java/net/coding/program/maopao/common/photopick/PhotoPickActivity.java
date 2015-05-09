@@ -81,7 +81,7 @@ public class PhotoPickActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo_pick);
+        setContentView(R.layout.activity_photo_pick_mp);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("图片");
@@ -434,7 +434,7 @@ public class PhotoPickActivity extends BaseActivity {
             if (type == TYPE_PHOTO) {
                 GridViewHolder holder;
                 if (convertView == null) {
-                    convertView = mInflater.inflate(R.layout.photopick_gridlist_item, parent, false);
+                    convertView = mInflater.inflate(R.layout.photopick_gridlist_item_mp, parent, false);
                     convertView.getLayoutParams().height = width;
 
                     holder = new GridViewHolder();
@@ -474,7 +474,7 @@ public class PhotoPickActivity extends BaseActivity {
 
                     lastTime = System.currentTimeMillis();
 
-                    convertView = mInflater.inflate(R.layout.photopick_gridlist_item_camera, parent, false);
+                    convertView = mInflater.inflate(R.layout.photopick_gridlist_item_camera_mp, parent, false);
 
                     ViewGroup.LayoutParams layoutParams = convertView.getLayoutParams();
                     layoutParams.height = width;
@@ -571,7 +571,7 @@ public class PhotoPickActivity extends BaseActivity {
         public View getView(int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
             if (convertView == null) {
-                convertView = mInflater.inflate(R.layout.photopick_list_item, parent, false);
+                convertView = mInflater.inflate(R.layout.photopick_list_item_mp, parent, false);
                 holder = new ViewHolder();
                 holder.foldIcon = (ImageView) convertView.findViewById(R.id.foldIcon);
                 holder.foldName = (TextView) convertView.findViewById(R.id.foldName);

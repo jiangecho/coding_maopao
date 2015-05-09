@@ -130,7 +130,7 @@ public class DialogUtil {
         ImageView loadingRound;
 
         public LoadingPopupWindow(Activity activity) {
-            super(activity.getLayoutInflater().inflate(R.layout.common_loading, null), RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT, false);
+            super(activity.getLayoutInflater().inflate(R.layout.common_loading_mp, null), RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT, false);
             this.loadingLogo = (ImageView) getContentView().findViewById(R.id.loading_logo);
             this.loadingRound = (ImageView) getContentView().findViewById(R.id.loading_round);
 
@@ -155,7 +155,7 @@ public class DialogUtil {
         public BottomPopupAdapter adapter;
 
         public BottomPopupWindow(Activity activity) {
-            super(activity.getLayoutInflater().inflate(R.layout.popup_attachment, null), RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
+            super(activity.getLayoutInflater().inflate(R.layout.popup_attachment_mp, null), RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
             getContentView().setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -206,7 +206,7 @@ public class DialogUtil {
 
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(R.layout.popup_item, null);
+                convertView = LayoutInflater.from(getContext()).inflate(R.layout.popup_item_mp, null);
             }
             TextView title = (TextView) convertView.findViewById(R.id.title);
             title.setText(getItem(position).title);
@@ -226,7 +226,7 @@ public class DialogUtil {
         public RightTopPopupAdapter adapter;
 
         public RightTopPopupWindow(Activity activity) {
-            super(activity.getLayoutInflater().inflate(R.layout.popup_top_right, null), RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+            super(activity.getLayoutInflater().inflate(R.layout.popup_top_right_mp, null), RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
             listView = (ListView) getContentView().findViewById(R.id.listView);
             adapter = new RightTopPopupAdapter(activity);
             listView.setAdapter(adapter);
@@ -267,7 +267,7 @@ public class DialogUtil {
 
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(R.layout.popup_top_right_item, null);
+                convertView = LayoutInflater.from(getContext()).inflate(R.layout.popup_top_right_item_mp, null);
             }
             TextView title = (TextView) convertView.findViewById(R.id.title);
             title.setText(getItem(position).title);

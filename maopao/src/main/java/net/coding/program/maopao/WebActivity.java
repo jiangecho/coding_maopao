@@ -27,7 +27,7 @@ import org.androidannotations.annotations.*;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_web)
+@EActivity(R.layout.activity_web_mp)
 //@OptionsMenu(R.menu.menu_web)
 @OptionsMenu(R.menu.common_more)
 public class WebActivity extends UmengActivity {
@@ -51,7 +51,7 @@ public class WebActivity extends UmengActivity {
 //        final ActionBar actionBar = getSupportActionBar();
 //        actionBar.setDisplayShowHomeEnabled(false);
 //        actionBar.setDisplayShowTitleEnabled(false);
-//        actionBar.setCustomView(R.layout.actionbar_close_icon);
+//        actionBar.setCustomView(R.layout.actionbar_close_icon_mp);
 //        actionBar.setDisplayShowCustomEnabled(true);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.custom_action_bar);

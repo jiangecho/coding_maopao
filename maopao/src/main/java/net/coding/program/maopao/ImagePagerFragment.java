@@ -45,7 +45,7 @@ import java.util.HashMap;
 /**
  * Created by chaochen on 14-9-7.
  */
-@EFragment(R.layout.activity_image_pager_item)
+@EFragment(R.layout.activity_image_pager_item_mp)
 public class ImagePagerFragment extends BaseFragment {
 
     private String URL_FILES_BASE = Global.HOST + "/api/project/%d/files/%s/view";
@@ -127,7 +127,7 @@ public class ImagePagerFragment extends BaseFragment {
         }
 
         if (isGif) {
-            GifImageView gifView = (GifImageView) getActivity().getLayoutInflater().inflate(R.layout.imageview_gif, null);
+            GifImageView gifView = (GifImageView) getActivity().getLayoutInflater().inflate(R.layout.imageview_gif_mp, null);
             image = gifView;
             rootLayout.addView(image);
 
@@ -139,7 +139,7 @@ public class ImagePagerFragment extends BaseFragment {
             });
 
         } else {
-            PhotoView photoView = (PhotoView) getActivity().getLayoutInflater().inflate(R.layout.imageview_touch, null);
+            PhotoView photoView = (PhotoView) getActivity().getLayoutInflater().inflate(R.layout.imageview_touch_mp, null);
             image = photoView;
             rootLayout.addView(image);
 

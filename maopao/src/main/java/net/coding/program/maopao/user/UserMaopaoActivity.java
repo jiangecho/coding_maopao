@@ -15,7 +15,7 @@ public class UserMaopaoActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_maopao);
+        setContentView(R.layout.activity_user_maopao_mp);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

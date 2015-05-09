@@ -10,7 +10,7 @@ import net.coding.program.maopao.model.UserObject;
 import org.androidannotations.annotations.*;
 import org.androidannotations.annotations.res.StringArrayRes;
 
-@EActivity(R.layout.activity_user_detail_more)
+@EActivity(R.layout.activity_user_detail_more_mp)
 @OptionsMenu(R.menu.menu_user_detail_more)
 public class UserDetailMoreActivity extends BaseActivity {
 
